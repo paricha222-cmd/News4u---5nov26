@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PrevGame — versão de teste</title>
+<style>body{margin:0;background:#06121e;color:#cfe3f5;font:16px/1.5 system-ui,sans-serif;display:grid;place-items:center;height:100vh}</style>
+</head>
+<body>
+<p id="msg">Carregando a versão de teste do jogo…</p>
+<script>
+// Abre o jogo oficial (index.html) com o visual-upgrade.js já ativado.
+// O index.html não é alterado: esta página só existe para teste.
+fetch('index.html', { cache: 'no-store' })
+  .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
+  .then(function (html) {
+    html = html.replace(/<head[^>]*>/i, function (m) { return m + '<script src="visual-upgrade.js?v=3.1"><\/script>'; });
+    document.open(); document.write(html); document.close();
+  })
+  .catch(function (e) { document.getElementById('msg').textContent = 'Não foi possível abrir o jogo (' + e.message + ').'; });
+</script>
+</body>
+</html>
