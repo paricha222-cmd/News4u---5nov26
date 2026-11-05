@@ -1,0 +1,22 @@
+name: Validar edição News4U
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Testes e consistência da edição
+        run: |
+          python -m unittest discover -s tests -v
+          python -m compileall -q scripts tests
+          SOURCE=$(python -c 'import json; print(json.load(open("latest.json"))["source_path"])')
+          python scripts/publicar_edicao.py "$SOURCE" --check

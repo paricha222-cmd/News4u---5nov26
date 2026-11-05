@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-05-1100-extra",
+  "title": "Edição extra",
+  "cutoff": "2026-11-05T11:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "source_path": "edicoes/2026-11-05-1100-extra.json",
+  "html_path": "arquivo/news4u-2026-11-05-1100-extra.html",
+  "markdown_path": "arquivo/news4u-2026-11-05-1100-extra.md",
+  "content_sha256": "90dfd78463b9e9087d7d152a9a8f5e35e23fd703d29d7b14575b9a0ce487921e",
+  "html_sha256": "1d14dc47a33a5ef63588ce0b993688eab5818efea78ab535db3b2132bc376c19",
+  "markdown_sha256": "5526bed67a18a5b8b6351feb515e876b22e3bc5da14469f96d53d77f134729d0"
+}
