@@ -40,6 +40,8 @@ def items_for(query):
         yield (title, link, publisher)
 
 def main():
+    if (root / "latest.json").exists():
+        raise SystemExit("Gerador RSS legado desativado: use scripts/publicar_edicao.py com a edição editorial única do dot. Nenhum arquivo foi alterado.")
     collected = {}
     for section, queries in sections.items():
         seen = set()

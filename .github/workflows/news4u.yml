@@ -1,38 +1,21 @@
-name: Publicar News4U
+name: Conferir News4U
+# Pesquisa e publicação são coordenadas exclusivamente pela automação do dot.
+# Sem cron, escrita no repositório ou envio de mensagens externas neste job.
 on:
-  schedule:
-    - cron: '0 10 * * *' # 07:00 Brasilia (UTC-3)
   workflow_dispatch:
 permissions:
-  contents: write
-concurrency:
-  group: news4u-daily
-  cancel-in-progress: false
+  contents: read
 jobs:
-  publicar:
+  conferir:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Gerar jornal
-        run: python scripts/gerar_news4u.py
-      - name: Salvar edicao e acionar deploy automatico no Render
+      - name: Validar edição atual sem gerar outra
         run: |
-          git config user.name "News4U Bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add index.html arquivo/
-          if ! git diff --cached --quiet; then
-            git commit -m "News4U: edicao automatica"
-            git push
-          fi
-      - name: Enviar WhatsApp apos publicacao
-        env:
-          WHATSAPP_TOKEN: ${{ secrets.WHATSAPP_TOKEN }}
-          WHATSAPP_PHONE_NUMBER_ID: ${{ secrets.WHATSAPP_PHONE_NUMBER_ID }}
-          WHATSAPP_RECIPIENT: ${{ secrets.WHATSAPP_RECIPIENT }}
-          WHATSAPP_TEMPLATE_NAME: news4u_diario
-          WHATSAPP_TEMPLATE_LANGUAGE: pt_BR
-          NEWS4U_PUBLIC_URL: https://news4u-5nov26.onrender.com
-        run: python scripts/enviar_whatsapp.py
+          python -m unittest discover -s tests -v
+          SOURCE=$(python -c 'import json; print(json.load(open("latest.json"))["source_path"])')
+          python scripts/publicar_edicao.py "$SOURCE" --check
+          python scripts/verificar_publicacao.py

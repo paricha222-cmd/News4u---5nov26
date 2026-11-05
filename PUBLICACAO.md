@@ -33,6 +33,15 @@ deploy duplicado quando o automático já estiver pendente ou rodando.
 Se não houver deploy, investigar o vínculo do repositório; não afirmar que o
 site foi atualizado só porque o GitHub recebeu o commit.
 
+Em 05/11/2026, o serviço indicava auto-deploy habilitado, porém não iniciou
+novas implantações após commits, mesmo depois de CI aprovado. A causa do vínculo
+Git não pôde ser determinada pelos dados do conector. A recuperação validada
+foi um deploy com limpeza de cache pelo plugin Render já conectado. Ao repetir
+essa recuperação para conteúdo estático desatualizado, confirmar antes que não
+há deploy pendente/rodando para o commit esperado, acompanhar até `live` e
+conferir os hashes públicos. Não criar tokens ou conexões persistentes como
+alternativa sem autorização específica.
+
 Executar `python scripts/verificar_publicacao.py` para comparar o manifesto
 e os hashes da página atual, arquivo permanente, texto e JSON em URLs públicas.
 Só depois de essa verificação passar, enviar no dot o texto do caminho
@@ -53,3 +62,8 @@ no arquivo como registros históricos; não são a fonte da edição atual.
 GitHub Actions valida os arquivos, mas a pesquisa e a geração editorial são
 feitas pela automação do dot. Não configurar outro gerador que sobrescreva a
 mesma página independentemente.
+
+O antigo workflow `news4u.yml` não possui mais agendamento, permissão de escrita
+ou envio por WhatsApp. Seu disparo manual apenas confere a edição existente.
+`validar.yml` executa testes e conferência de consistência em cada push para main.
+O script RSS legado recusa execução quando encontra `latest.json`.

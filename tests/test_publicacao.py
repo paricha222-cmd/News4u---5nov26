@@ -3,6 +3,7 @@ import importlib.util
 import json
 from pathlib import Path
 import tempfile
+import subprocess
 import unittest
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -55,7 +56,7 @@ class PublicationTests(unittest.TestCase):
         self.assertIn('&lt;script&gt;', (self.root/'index.html').read_text())
         self.assertNotIn('<script>alert', (self.root/'index.html').read_text())
     def test_reject_bad_urls(self):
-        for url in ['javascript:alert(1)','http://example.com','https://name:secret@example.com']:
+        for url in ['javascript:alert(1)','http://example.com','https://name:secret@example.com','https://localhost/x','https://127.0.0.1/x','https://example.com:bad/x','https://example.com/x) [outro](https://evil.example)']:
             self.data['sections'][0]['stories'][0]['url']=url
             with self.assertRaises(ValueError): p.validate(self.data)
     def test_reject_wrong_date_or_timezone(self):
@@ -73,5 +74,33 @@ class PublicationTests(unittest.TestCase):
         (self.root/'index.html').write_text('stale')
         with self.assertRaisesRegex(ValueError,'divergente'):
             p.build(self.data,self.root,check=True)
+    def test_legacy_generator_cannot_overwrite_current_edition(self):
+        before = (ROOT/'index.html').read_bytes()
+        result = subprocess.run(['python', str(ROOT/'scripts/gerar_news4u.py')],capture_output=True,text=True)
+        self.assertNotEqual(result.returncode,0)
+        self.assertIn('legado desativado',result.stderr)
+        self.assertEqual(before,(ROOT/'index.html').read_bytes())
+    def test_no_competing_schedule_or_write_permission(self):
+        for path in (ROOT/'.github/workflows').glob('*.yml'):
+            workflow = path.read_text()
+            self.assertNotIn('schedule:',workflow)
+            self.assertNotIn('contents: write',workflow)
+            self.assertNotIn('enviar_whatsapp.py',workflow)
+    def test_compact_new_json_draft_is_accepted(self):
+        (self.root/'edicoes').mkdir()
+        (self.root/'edicoes'/f'{self.data["id"]}.json').write_text(json.dumps(self.data))
+        p.build(self.data,self.root)
+        p.build(self.data,self.root,check=True)
+    def test_concurrent_publication_is_rejected(self):
+        (self.root/'.news4u-publish.lock').mkdir()
+        with self.assertRaisesRegex(ValueError,'andamento'):
+            p.build(self.data,self.root)
+        self.assertFalse((self.root/'index.html').exists())
+    def test_markdown_content_cannot_add_hidden_link(self):
+        self.data['sections'][0]['stories'][0]['summary']='Texto [outro](https://example.com) *ênfase*'
+        m=p.build(self.data,self.root)
+        text=(self.root/m['markdown_path']).read_text()
+        self.assertIn(r'\[outro\]',text)
+        self.assertIn(r'\*ênfase\*',text)
 
 if __name__=='__main__': unittest.main()

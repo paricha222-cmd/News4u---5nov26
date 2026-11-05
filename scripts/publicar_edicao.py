@@ -8,15 +8,38 @@ import argparse
 import datetime as dt
 import hashlib
 import html
+import ipaddress
 import json
+import os
 from pathlib import Path
 import re
+import tempfile
 from urllib.parse import urlsplit
 from zoneinfo import ZoneInfo
 
 TZ = ZoneInfo('America/Sao_Paulo')
 SECTIONS = ('Economia', 'Previdência', 'Esportes')
 ROOT = Path(__file__).resolve().parent.parent
+
+def public_url(url):
+    if re.search(r'[\s()\[\]<>"\\]', url):
+        raise ValueError('URL contém caracteres inseguros; use codificação percentual')
+    u = urlsplit(url)
+    if u.scheme != 'https' or not u.hostname or u.username or u.password:
+        raise ValueError('Fonte precisa de link HTTPS público, sem credenciais')
+    _ = u.port  # Reject malformed ports.
+    host = u.hostname.lower()
+    if host == 'localhost' or host.endswith(('.localhost','.local','.internal')) or '.' not in host:
+        raise ValueError('Fonte não pode apontar para rede local')
+    try:
+        address = ipaddress.ip_address(host)
+    except ValueError:
+        return
+    if not address.is_global:
+        raise ValueError('Fonte não pode apontar para endereço IP privado')
+
+def md_escape(value):
+    return re.sub(r'([\\\[\]*_~`])', r'\\\1', value)
 
 def validate(data):
     if data.get('schema_version') != 1:
@@ -42,9 +65,7 @@ def validate(data):
             for field in ('headline', 'summary', 'source', 'url'):
                 if not isinstance(story.get(field), str) or not story[field].strip():
                     raise ValueError(f'Campo obrigatório: {field}')
-            u = urlsplit(story['url'])
-            if u.scheme != 'https' or not u.hostname or u.username or u.password:
-                raise ValueError('Fonte precisa de link HTTPS público, sem credenciais')
+            public_url(story['url'])
             count += 1
     if not count:
         raise ValueError('Edição sem notícias')
@@ -58,6 +79,18 @@ def digest(value):
 
 def build(data, root=ROOT, check=False):
     root = Path(root)
+    root.mkdir(parents=True, exist_ok=True)
+    lock = root / '.news4u-publish.lock'
+    try:
+        lock.mkdir()
+    except FileExistsError:
+        raise ValueError('Outra publicação está em andamento; confira antes de tentar novamente')
+    try:
+        return _build(data, root, check)
+    finally:
+        lock.rmdir()
+
+def _build(data, root, check):
     cutoff = validate(data)
     edition_id = data['id']
     base = 'news4u-' + edition_id
@@ -75,21 +108,21 @@ def build(data, root=ROOT, check=False):
     parts = [f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="news4u-edition-id" content="{edition_id}"><meta name="news4u-content-sha256" content="{content_hash}"><title>News4U | {esc(data["title"])} | {cutoff:%d/%m/%Y}</title><style>{css}</style></head><body>',
              '<div class="toolbar"><a href="/arquivo/">Arquivo de edições</a><button type="button" onclick="window.print()">Imprimir / Salvar em PDF</button></div><main class="paper">',
              f'<header><img class="logo" src="{logo}" alt="Logo News4U"><div class="kicker">Economia · Previdência · Esportes</div><h1>{esc(data["title"])}</h1><div class="date">Fechamento: {label}</div><p class="intro">A mesma edição no site e no dot. Notícias com fontes e links diretos; datas anteriores são identificadas nas referências. Consulte as fontes para a íntegra e eventuais atualizações.</p></header><div class="sections">']
-    md = [f'📰 **NEWS4U | {data["title"]}**', f'Fechamento: {label}', '']
+    md = [f'📰 **NEWS4U | {md_escape(data["title"])}**', f'Fechamento: {label}', '']
     for section in data['sections']:
         parts.append(f'<section class="section"><h2>{esc(section["name"])}</h2>')
         md += [f'**{section["name"]}**', '']
         for story in section.get('stories', []):
             parts.append(f'<article><h3>{esc(story["headline"])}</h3><p>{esc(story["summary"])}</p><div class="source"><a href="{esc(story["url"],quote=True)}" target="_blank" rel="noopener noreferrer">{esc(story["source"])}</a></div></article>')
-            md += [f'• **{story["headline"]}** {story["summary"]} [{story["source"]}]({story["url"]})', '']
+            md += [f'• **{md_escape(story["headline"])}** {md_escape(story["summary"])} [{md_escape(story["source"])}]({story["url"]})', '']
         if section.get('note'):
             parts.append(f'<p class="note">{esc(section["note"])}</p>')
-            md += [section['note'], '']
+            md += [md_escape(section['note']), '']
         parts.append('</section>')
     parts.append('</div>')
     for note in data.get('notes', []):
         parts.append(f'<p class="note">{esc(note)}</p>')
-        md += [note, '']
+        md += [md_escape(note), '']
     parts.append(f'<footer>News4U · Edição {edition_id}<br><a href="/{archive_path}">Link permanente desta edição</a> · <a href="/arquivo/">Todas as edições</a></footer></main></body></html>\n')
     page = '\n'.join(parts)
     markdown = '\n'.join(md).rstrip() + '\n'
@@ -98,6 +131,11 @@ def build(data, root=ROOT, check=False):
     outputs = {source_path: canonical, archive_path: page, markdown_path: markdown}
     for path, value in outputs.items():
         p = root / path
+        # A new JSON draft can use any formatting before its archive exists.
+        if path == source_path and not (root / archive_path).exists():
+            if p.exists() and json.loads(p.read_text()) != data:
+                raise ValueError('Rascunho de origem difere dos dados fornecidos')
+            continue
         if p.exists() and p.read_text() != value:
             raise ValueError(f'Edição imutável já existe com conteúdo diferente: {path}')
     # Never promote an older edition over a newer published cutoff.
@@ -125,7 +163,10 @@ def build(data, root=ROOT, check=False):
                 raise ValueError(f'Arquivo ausente ou divergente: {path}')
         else:
             p.parent.mkdir(parents=True, exist_ok=True)
-            p.write_text(value, encoding='utf-8')
+            with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', dir=p.parent, prefix='.news4u-', suffix='.tmp', delete=False) as temp:
+                temp.write(value)
+                tmp_name = temp.name
+            os.replace(tmp_name, p)
     return manifest
 
 if __name__ == '__main__':
