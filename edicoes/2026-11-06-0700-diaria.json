@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-06-0700-diaria",
+  "title": "Edição diária",
+  "cutoff": "2026-11-06T07:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "sections": [
+    {
+      "name": "Economia",
+      "stories": [
+        {
+          "headline": "Queda de ações ligadas à IA chega à Ásia.",
+          "summary": "O índice sul-coreano Kospi caiu 6% nesta sexta-feira, após o Nasdaq recuar 5,52% na quinta. A venda de ações ligadas à inteligência artificial se espalhou de Wall Street para os mercados asiáticos.",
+          "source": "AFP via BOL/UOL, 6/11",
+          "url": "https://www.bol.uol.com.br/noticias/2026/11/06/acoes-vinculadas-a-ia-desabam-apos-eleicoes-nos-estados-unidos.amp.htm"
+        },
+        {
+          "headline": "Brasil define lista de 27 minerais críticos e estratégicos.",
+          "summary": "A lista organiza os minerais em três níveis. Projetos inscritos poderão acessar instrumentos de apoio; a definição não representa liberação automática de recursos.",
+          "source": "MDIC, 5/11",
+          "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026/novembro/governo-federal-aprova-lista-brasileira-de-minerais-criticos-e-estrategicos/"
+        },
+        {
+          "headline": "FGC comunica acesso indevido a dados e alerta contra golpes.",
+          "summary": "O fundo informou acesso indevido a dados pessoais e de pagamentos. Segundo o comunicado, não foram identificadas evidências de divulgação, uso indevido ou perda financeira.",
+          "source": "FGC, 5/11",
+          "url": "https://www.fgc.org.br/comunicado"
+        },
+        {
+          "headline": "Petrobras prevê importar 600 milhões de litros de diesel.",
+          "summary": "A previsão para novembro busca recompor estoques. O volume anunciado é uma estimativa de importação, ainda não um resultado realizado.",
+          "source": "Reuters via BOL/UOL, 5/11",
+          "url": "https://www.bol.uol.com.br/economia/2026/11/05/petrobras-preve-importar-125-mil-bpd-de-diesel-em-novembro-para-recompor-estoques.amp.htm"
+        }
+      ]
+    },
+    {
+      "name": "Previdência",
+      "stories": [
+        {
+          "headline": "Abrapp disponibiliza manual de preenchimento da DeRE.",
+          "summary": "O material orienta as entidades fechadas de previdência complementar no preenchimento do evento D-1001 da declaração.",
+          "source": "Abrapp, 5/11",
+          "url": "https://blog.abrapp.org.br/blog/abrapp-disponibiliza-manual-de-preenchimento-da-dere/"
+        },
+        {
+          "headline": "INSS oferece 8.092 vagas em mutirão neste fim de semana.",
+          "summary": "As perícias e avaliações sociais ocorrerão em 7 e 8 de novembro. O agendamento pode ser feito pelo Meu INSS ou pelo telefone 135.",
+          "source": "INSS, 5/11",
+          "url": "https://www.gov.br/inss/pt-br/assuntos/noticias/mutirao-de-atendimentos-do-inss-oferece-8-mil-vagas-neste-fim-de-semana-7-e-8"
+        },
+        {
+          "headline": "Abrapp finaliza guia de gestão orçamentária para EFPC.",
+          "summary": "A comissão responsável prepara orientações que relacionam orçamento, governança e transparência. O guia ainda não foi lançado e não é uma norma obrigatória.",
+          "source": "Abrapp, 5/11",
+          "url": "https://blog.abrapp.org.br/blog/novo-guia-da-abrapp-conecta-orcamento-governanca-e-transparencia-nas-efpc/"
+        },
+        {
+          "headline": "Conaprev prossegue com reunião em Vitória.",
+          "summary": "A 86ª reunião do conselho continua nesta sexta-feira. O registro é de agenda; não há deliberações confirmadas nesta edição.",
+          "source": "ACIP, agenda de 5 e 6/11",
+          "url": "https://acip-es.org.br/acip-ipajm-e-preves-alinham-preparativos-para-reuniao-do-conaprev-em-vitoria/"
+        }
+      ]
+    },
+    {
+      "name": "Esportes",
+      "stories": [
+        {
+          "headline": "Palmeiras faz 6 a 1 no Remo e segue na disputa pelo título.",
+          "summary": "Com a goleada, o Palmeiras chegou a 73 pontos no Brasileirão, três atrás do Flamengo.",
+          "source": "ge, 6/11",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/06/analise-palmeiras-testa-mudancas-mas-e-implacavel-e-atropela-remo-para-seguir-vivo-no-brasileirao.ghtml"
+        },
+        {
+          "headline": "Yuri Alberto é denunciado no STJD.",
+          "summary": "A denúncia envolve a entrada em Ferreirinha e um chute na bandeirinha. O atacante do Corinthians pode receber até 12 jogos de suspensão, mas ainda não foi julgado.",
+          "source": "ge, 5/11",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/11/05/yuri-alberto-do-corinthians-e-denunciado-no-stjd-e-pode-pegar-ate-12-jogos-de-suspensao.ghtml"
+        },
+        {
+          "headline": "Hamilton pede conversa com Ferrari e Leclerc antes de Interlagos.",
+          "summary": "O piloto quer discutir a disputa entre os companheiros de equipe no GP do México antes do GP de São Paulo.",
+          "source": "Fórmula 1, 5/11",
+          "url": "https://www.formula1.com/en/latest/article/hamilton-wants-ferrari-talks-ahead-of-sao-paulo-grand-prix-after-intra-team-battle-with-leclerc.3JXGpQWTdOA2a9PiH7NL8X"
+        },
+        {
+          "headline": "Fritz enfrenta Alcaraz nas quartas de final em Paris.",
+          "summary": "Taylor Fritz venceu Arthur Fils por 6/3 e 6/4. O duelo com Carlos Alcaraz está previsto para esta sexta-feira, não antes das 15h de Brasília.",
+          "source": "Rolex Paris Masters, programação de 6/11",
+          "url": "https://www.rolexparismasters.com/en/news/article/round-of-16-taylor-fritz-victory-arthur-fils-turin"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}
