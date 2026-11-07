@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-07-0700-diaria",
+  "title": "Edição diária",
+  "cutoff": "2026-11-07T07:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "sections": [
+    {
+      "name": "Economia",
+      "stories": [
+        {
+          "headline": "Comércio exterior atinge recorde para outubro, com US$ 66,3 bilhões.",
+          "summary": "As exportações totalizaram US$ 37,81 bilhões e as importações, US$ 28,49 bilhões. O saldo comercial foi positivo em US$ 9,32 bilhões.",
+          "source": "MDIC, 6/11",
+          "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026/novembro/corrente-de-comercio-brasileira-chega-a-us-66-3-bi-um-recorde-para-o-mes-de-outubro-na-serie-historica"
+        },
+        {
+          "headline": "Bradesco e XP reduzem projeções de crescimento para 2027.",
+          "summary": "O Bradesco cortou sua previsão de alta do PIB de 1% para 0,4%, enquanto a XP reduziu a estimativa para 0,3%. Os números são projeções para o próximo ano.",
+          "source": "Reuters, 6/11",
+          "url": "https://www.reuters.com/world/americas/brazilian-banks-cut-growth-forecasts-raising-fiscal-stakes-lula-2026-11-06/"
+        },
+        {
+          "headline": "Ibovespa sobe 1,39%; dólar fecha a R$ 5,508.",
+          "summary": "O índice da bolsa brasileira e o dólar encerraram a sexta-feira em alta. Os valores se referem ao fechamento de 6 de novembro.",
+          "source": "UOL, 6/11",
+          "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/06/ibovespa-avanca-mais-de-1-com-vale-e-itau-enquanto-dolar-sobe-a-r-550.ghtm"
+        },
+        {
+          "headline": "Gecex aprova prorrogação do imposto de exportação de petróleo.",
+          "summary": "A alíquota de 12% foi prorrogada até 31 de dezembro. Segundo o MDIC, a medida busca preservar o abastecimento doméstico.",
+          "source": "MDIC, 6/11",
+          "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026/novembro/gecex-aprova-prorrogacao-do-imposto-de-exportacao-de-petroleo-para-manter-abastecimento-domestico"
+        }
+      ]
+    },
+    {
+      "name": "Previdência",
+      "stories": [
+        {
+          "headline": "Atestmed permite pedir segunda análise em até dez dias.",
+          "summary": "Quando a incapacidade não for reconhecida, o segurado poderá solicitar nova análise por outro perito e complementar a documentação.",
+          "source": "INSS, 6/11",
+          "url": "https://www.gov.br/inss/pt-br/assuntos/noticias/segurados-terao-direito-a-segunda-analise-quando-o-beneficio-for-negado-por-atestmed"
+        },
+        {
+          "headline": "RPPS têm até 5 de dezembro para validar dados do ISP 2026.",
+          "summary": "As solicitações devem ser encaminhadas pelo GESCON. O prazo é destinado à correção dos dados, sem inclusão de informações novas.",
+          "source": "Ministério da Previdência Social, 6/11",
+          "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/destaques/isp-2026-aberto-prazo-para-validacao-de-dados"
+        },
+        {
+          "headline": "Perícia Conectada chega a cerca de 900 agências do INSS.",
+          "summary": "Segundo o Ministério da Previdência Social, foram realizadas 487 mil teleperícias em 2026. O serviço está presente em todas as regiões do país.",
+          "source": "Ministério da Previdência Social, 6/11",
+          "url": "https://www.gov.br/previdencia/pt-br/noticias/2026/novembro/pericia-conectada-chega-a-900-agencias-do-inss-em-todas-as-regioes-do-pais"
+        }
+      ]
+    },
+    {
+      "name": "Esportes",
+      "stories": [
+        {
+          "headline": "Antonelli lidera segundo treino livre em Interlagos.",
+          "summary": "O piloto marcou 1min10s763 no TL2 do GP de São Paulo. Lando Norris ficou em segundo, e Gabriel Bortoleto foi o oitavo.",
+          "source": "Fórmula 1, 6/11",
+          "url": "https://www.formula1.com/en/latest/article/fp2-antonelli-tops-the-times-from-norris-in-second-practice-at-sao-paulo-gp.27XFbTG9Lji18qmtHbCJUA"
+        },
+        {
+          "headline": "Alcaraz salva dois match points e vai à semifinal de Paris.",
+          "summary": "Carlos Alcaraz venceu Taylor Fritz por 6–7(10), 7–5 e 6–3 nas quartas de final do Paris Masters.",
+          "source": "Rolex Paris Masters, 6/11",
+          "url": "https://www.rolexparismasters.com/en/news/article/quarterfinals-carlos-alcaraz-victory-taylor-fritz"
+        },
+        {
+          "headline": "CBF divulga tabela das duas últimas rodadas do Brasileirão.",
+          "summary": "A programação detalha a 37ª e a 38ª rodadas. A rodada final está marcada para 2 de dezembro, às 21h30.",
+          "source": "CBF, 6/11",
+          "url": "https://www.cbf.com.br/futebol-brasileiro/noticias/campeonato-brasileiro-serie-a/a/cbf-publica-tabela-detalhada-das-duas-rodadas-finais-do-brasileirao"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}
