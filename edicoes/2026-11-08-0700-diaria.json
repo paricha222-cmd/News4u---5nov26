@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-08-0700-diaria",
+  "title": "Edição diária",
+  "cutoff": "2026-11-08T07:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "sections": [
+    {
+      "name": "Economia",
+      "stories": [
+        {
+          "headline": "Delivery impulsiona motos, e vendas devem atingir recorde.",
+          "summary": "O mercado projeta 2,35 milhões de unidades em 2026, ante 2,19 milhões no ano anterior. Aplicativos, financiamento e encarecimento dos carros impulsionam as vendas.",
+          "source": "Folha, 7/11",
+          "url": "https://c-level.folha.uol.com.br/negocios/2026/11/industria-de-motos-no-brasil-ganha-impulso-com-delivery-e-deve-registrar-melhor-ano-da-historia.shtml"
+        },
+        {
+          "headline": "Raízen aprova aumento de capital de até R$ 39,8 bilhões.",
+          "summary": "O conselho aprovou um pacote para implementar o plano de recuperação extrajudicial.",
+          "source": "Valor, 6/11; título e resumo do feed",
+          "url": "https://valor.globo.com/empresas/noticia/2026/11/06/raizen-aprova-pacote-de-reestruturacao-com-aumento-de-capital-de-ate-r-398-bi.ghtml"
+        },
+        {
+          "headline": "Vales alimentação e refeição podem ser aceitos em mais maquininhas.",
+          "summary": "A mudança prevista para 7 de novembro depende de integração das redes e de maquininhas habilitadas. Ela não obriga os estabelecimentos a aceitar os benefícios.",
+          "source": "Agência Brasil, 7/11",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/vr-e-va-podem-ser-aceitos-em-mais-maquininhas-partir-deste-sabado"
+        },
+        {
+          "headline": "Solange Srour defende enfrentar despesas obrigatórias para reduzir juros.",
+          "summary": "A economista avalia que o ajuste fiscal precisa tratar dos gastos obrigatórios para permitir a queda dos juros. A afirmação expressa sua avaliação, não uma decisão de política econômica.",
+          "source": "Estadão Conteúdo via O Povo, 7/11",
+          "url": "https://www.opovo.com.br/noticias/economia/2026/11/07/se-ajuste-fiscal-nao-tratar-de-gasto-obrigatorio-juros-nao-vao-cair-diz-solange-srour.html"
+        }
+      ]
+    },
+    {
+      "name": "Previdência",
+      "stories": [
+        {
+          "headline": "Conexões Previc detalha propostas de fomento à previdência complementar.",
+          "summary": "O evento apresentou ações de curto, médio e longo prazo, incluindo educação previdenciária, ASG e proposta de fundo de longevidade para assistidos de planos CD. O fundo é uma proposta, não uma estrutura já criada.",
+          "source": "Abrapp, 6/11",
+          "url": "https://blog.abrapp.org.br/blog/conexoes-previc-apresenta-plano-nacional-de-fomento-elaborado-pela-cofom/"
+        },
+        {
+          "headline": "Manausprev assume novas atribuições no Conaprev.",
+          "summary": "Na reunião de 5 e 6 de novembro, em Vitória, Manaus passou a integrar a Comissão de Atuação Intergovernamental e um grupo sobre mudanças constitucionais com impacto nos municípios.",
+          "source": "Prefeitura de Manaus, 6/11",
+          "url": "https://www.manaus.am.gov.br/noticia/destaque/protagonismo-nacional-na-previdencia/"
+        },
+        {
+          "headline": "Abrapp reúne guias de governança, ASG e inovação para EFPC.",
+          "summary": "Os materiais apresentados no 47º CBPP incluem adequação ASG, governança de dados, gestão de riscos e implementação da Resolução CNPC 62/2024. São orientações, não novas obrigações.",
+          "source": "Abrapp, 6/11",
+          "url": "https://blog.abrapp.org.br/blog/confira-as-publicacoes-da-abrapp-lancadas-no-47o-cbpp-para-auxiliar-as-entidades-em-seus-desafios-de-gestao/"
+        },
+        {
+          "headline": "INSS anuncia orientação previdenciária em mutirões rurais no Amapá.",
+          "summary": "A programação de 7 a 13 de novembro inclui Pedra Branca, Porto Grande e Bailique, sem agendamento prévio. Trata-se da agenda anunciada, não de um balanço dos atendimentos.",
+          "source": "INSS, 6/11",
+          "url": "https://www.gov.br/inss/pt-br/assuntos/noticias/inss-participa-dos-mutiroes-de-documentacao-da-trabalhadora-rural-no-amapa"
+        }
+      ]
+    },
+    {
+      "name": "Esportes",
+      "stories": [
+        {
+          "headline": "Grêmio chega à final da Copa do Brasil.",
+          "summary": "O empate por 1 a 1 com o Atlético-MG, em Belo Horizonte, garantiu a classificação após a vitória por 2 a 0 na partida de ida.",
+          "source": "Folha, 7/11",
+          "url": "https://www1.folha.uol.com.br/esporte/2026/11/gremio-segura-o-atletico-mg-em-bh-e-vai-a-final-da-copa-do-brasil.shtml"
+        },
+        {
+          "headline": "Norris conquista pole em Interlagos; brasileiros batem.",
+          "summary": "A classificação foi interrompida pela chuva durante 1h24. Rafael Câmara e Gabriel Bortoleto se acidentaram.",
+          "source": "ge, 7/11",
+          "url": "https://ge.globo.com/google/amp/motor/formula-1/noticia/2026/11/07/gp-de-sao-paulo-norris-leva-a-pole-em-classificacao-adiada-pela-chuva-bortoleto-e-camara-batem.ghtml"
+        },
+        {
+          "headline": "Interlagos garante Fórmula 1 até 2035.",
+          "summary": "A extensão por cinco anos amplia o contrato que terminaria em 2030.",
+          "source": "Fórmula 1, 7/11",
+          "url": "https://corp.formula1.com/formula-1-to-race-in-brazil-through-2035-inclusive-following-a-new-five-year-extension/"
+        },
+        {
+          "headline": "Alcaraz e Shelton decidem Masters de Paris.",
+          "summary": "O espanhol venceu Casper Ruud por duplo 6/4 e enfrenta Ben Shelton neste domingo, às 11h de Brasília.",
+          "source": "ge, 7/11",
+          "url": "https://ge.globo.com/tenis/noticia/2026/11/07/alcaraz-vence-ruud-e-avanca-a-final-do-masters-1000-de-paris-pela-primeira-vez.ghtml"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}
