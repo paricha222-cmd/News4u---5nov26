@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-09-0700-diaria",
+  "title": "Edição diária",
+  "cutoff": "2026-11-09T07:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "sections": [
+    {
+      "name": "Economia",
+      "stories": [
+        {
+          "headline": "Concessionárias estimam alta de cerca de 5% nos pedágios com reforma tributária.",
+          "summary": "O setor apresentou cálculos para 2027. A estimativa não representa um reajuste já autorizado.",
+          "source": "Folha, 9/11, 04h",
+          "url": "https://c-level.folha.uol.com.br/infraestrutura/2026/11/reforma-tributaria-deve-aumentar-pedagios-em-5-a-partir-de-janeiro-dizem-concessionarias.shtml"
+        },
+        {
+          "headline": "Disputa sobre tarifas de gasodutos trava novos investimentos da NTS.",
+          "summary": "A empresa suspendeu a aprovação de projetos e ameaça recorrer à Justiça contra a metodologia da ANP. Distribuidoras contestam os argumentos.",
+          "source": "Folha, 9/11, 04h",
+          "url": "https://c-level.folha.uol.com.br/negocios/2026/11/revisao-tarifaria-de-gasodutos-gera-ameacas-de-judicializacao-e-corte-de-investimentos.shtml"
+        },
+        {
+          "headline": "Fenatran começa com estreia de fabricantes chinesas e preocupação com juros.",
+          "summary": "A feira acontece de 9 a 13 de novembro, em São Paulo. O crédito caro dificulta as vendas financiadas de caminhões.",
+          "source": "Folha, 9/11, 04h",
+          "url": "https://c-level.folha.uol.com.br/negocios/2026/11/montadoras-chinesas-e-preocupacao-com-juros-marcam-edicao-2026-da-fenatran.shtml"
+        },
+        {
+          "headline": "Inflação e ata do Copom concentram atenções na semana.",
+          "summary": "A divulgação da ata está prevista para terça-feira, 10, e a do IPCA de outubro para quinta-feira, 12. São eventos futuros, ainda sem resultados conhecidos.",
+          "source": "UOL, 9/11, 05h30",
+          "url": "https://economia.uol.com.br/noticias/redacao/2026/11/09/agenda-da-semanal-8--14-de-novembro-de-2026.ghtm"
+        }
+      ]
+    },
+    {
+      "name": "Previdência",
+      "stories": [],
+      "note": "Não foi identificada atualização verificada para esta edição. Os temas já publicados foram preservados no arquivo, sem repetição."
+    },
+    {
+      "name": "Esportes",
+      "stories": [
+        {
+          "headline": "Palmeiras elimina Vasco e enfrenta Grêmio na final da Copa do Brasil.",
+          "summary": "Após perder por 2 a 1, o Palmeiras venceu nos pênaltis por 5 a 4, com duas defesas de Carlos Miguel. A final será em Brasília, em 6 de dezembro.",
+          "source": "Folha, 8/11, 19h20",
+          "url": "https://www1.folha.uol.com.br/esporte/2026/11/palmeiras-bate-vasco-nos-penaltis-e-esta-na-final-da-copa-do-brasil.shtml"
+        },
+        {
+          "headline": "Brasileirão passa a dar seis vagas à Libertadores.",
+          "summary": "A classificação do Palmeiras à final da Copa do Brasil amplia de cinco para seis as vagas pelo campeonato. A mudança beneficia o Bahia na classificação atual.",
+          "source": "Folha, 8/11, 20h35",
+          "url": "https://www1.folha.uol.com.br/esporte/2026/11/ida-do-palmeiras-a-final-da-copa-do-brasil-abre-vaga-para-libertadores-via-brasileiro.shtml"
+        },
+        {
+          "headline": "Norris vence em Interlagos; Mercedes conquista título de construtores.",
+          "summary": "Verstappen e Hadjar completaram o pódio do GP de São Paulo. A Mercedes garantiu seu nono título de construtores.",
+          "source": "FIA, 8/11",
+          "url": "https://www.fia.com/news/f1-norris-triumphs-sao-paulo-mercedes-secure-2026-constructors-championship"
+        },
+        {
+          "headline": "Alcaraz conquista Masters de Paris pela primeira vez.",
+          "summary": "O espanhol venceu Ben Shelton por 7/6 (7/5) e 7/5 na decisão.",
+          "source": "Folha, 8/11, 13h43",
+          "url": "https://www1.folha.uol.com.br/esporte/2026/11/alcaraz-vence-shelton-e-conquista-titulo-inedito-no-masters-1000-de-paris.shtml"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}
