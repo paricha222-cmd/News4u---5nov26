@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-10-0700-diaria",
+  "title": "Edição diária",
+  "cutoff": "2026-11-10T07:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "sections": [
+    {
+      "name": "Economia",
+      "stories": [
+        {
+          "headline": "Mercado passa a prever Selic de 13,75% no fim de 2026.",
+          "summary": "O Focus elevou a expectativa de 13,5% para 13,75%. A projeção de inflação para 2027 passou de 4,76% para 4,90%. São estimativas do mercado, não decisões do Banco Central.",
+          "source": "Agência Brasil, 9/11, 10h26",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-da-selic-para-1375-em-2026"
+        },
+        {
+          "headline": "Justiça suspende ampliação da aceitação de vales alimentação e refeição.",
+          "summary": "A decisão restabelece as regras anteriores; a União pode recorrer. O fato atualiza a mudança noticiada na edição de 8 de novembro.",
+          "source": "Agência Brasil, 9/11, 19h28",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/justica-suspende-regra-que-ampliou-aceitacao-de-vr-e-va-em-maquininhas"
+        },
+        {
+          "headline": "Aneel propõe cobrança de energia conforme o horário.",
+          "summary": "A Tarifa Hora Certa ainda depende de aprovação. O cronograma proposto prevê início em abril de 2028.",
+          "source": "Agência Brasil, 9/11, 19h23",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/aneel-propoe-tarifa-hora-certa-para-reduzir-valor-em-funcao-do-horario"
+        },
+        {
+          "headline": "Ibovespa sobe 2,22%; dólar recua levemente.",
+          "summary": "O índice fechou em 172.236 pontos. O dólar caiu 0,06%, para R$ 5,506.",
+          "source": "Agência Brasil, 9/11, 19h38",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bolsa-sobe-222-e-registra-maior-alta-diaria-desde-outubro"
+        }
+      ]
+    },
+    {
+      "name": "Previdência",
+      "stories": [
+        {
+          "headline": "Ministério abre consulta sobre nova metodologia do NTEP.",
+          "summary": "As contribuições podem ser enviadas até 11 de dezembro pela plataforma Brasil Participativo. A metodologia está em discussão, não foi aprovada.",
+          "source": "Ministério da Previdência, 9/11, 08h39",
+          "url": "https://www.gov.br/previdencia/pt-br/noticias/2026/novembro/mps-lanca-consulta-publica-sobre-nova-metodologia-do-ntep"
+        },
+        {
+          "headline": "RPPS recebem orientação sobre compensação previdenciária.",
+          "summary": "O Ministério orienta manter requerimentos e análises em dia, acompanhar o painel e organizar os fluxos do Comprev. Trata-se de orientação operacional, não de nova norma.",
+          "source": "Ministério da Previdência, 9/11, 15h13",
+          "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/destaques/compensacao-previdenciaria-requerer-e-analisar-para-garantir-a-reciprocidade-entre-os-regimes"
+        },
+        {
+          "headline": "Benefícios rurais somam R$ 1,47 bilhão no Maranhão em outubro.",
+          "summary": "Segundo o INSS, o valor corresponde a 911.646 benefícios rurais pagos no estado no mês.",
+          "source": "INSS, 9/11, 17h09",
+          "url": "https://www.gov.br/inss/pt-br/assuntos/noticias/beneficios-rurais-do-inss-garantem-r-1-47-bilhao-a-familias-do-maranhao-em-outubro"
+        }
+      ]
+    },
+    {
+      "name": "Esportes",
+      "stories": [
+        {
+          "headline": "Endrick deixa futuro no Real Madrid em aberto.",
+          "summary": "O atacante elogiou o apoio de Mourinho e não descartou uma mudança na próxima janela para buscar mais minutos. Não há transferência anunciada.",
+          "source": "ge, 10/11, 04h09",
+          "url": "https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/11/10/endrick-se-declara-a-mourinho-deixa-futuro-em-aberto-mas-avisa-nao-vou-me-tacar-do-penhasco.ghtml"
+        },
+        {
+          "headline": "GP de São Paulo abre pré-venda de ingressos para 2027.",
+          "summary": "A etapa para clientes Porto Bank começou em 9 de novembro. A venda geral está prevista para dia 16, ao meio-dia; o evento ocorrerá de 5 a 7 de novembro de 2027.",
+          "source": "ge, 9/11, 13h16",
+          "url": "https://ge.globo.com/google/amp/motor/formula-1/noticia/2026/11/09/ingressos-para-gp-de-sao-paulo-de-f1-de-2027-ja-estao-em-pre-venda.ghtml"
+        },
+        {
+          "headline": "Stefani e Dabrowski estreiam com vitória no WTA Finals.",
+          "summary": "A dupla venceu Mertens e Zhang por 6/3 e 7/6 (7/5). Ainda restam duas partidas na fase de grupos.",
+          "source": "ge, 9/11, 22h52",
+          "url": "https://ge.globo.com/tenis/noticia/2026/11/09/stefani-e-dabrowski-estreiam-com-vitoria-no-wta-finals.ghtml"
+        },
+        {
+          "headline": "Brasil volta a ter dois tenistas no top 100.",
+          "summary": "Thiago Wild ocupa a 98ª posição e João Fonseca, a 46ª, no ranking divulgado.",
+          "source": "ge, 9/11, 19h01",
+          "url": "https://ge.globo.com/tenis/noticia/2026/11/09/brasil-volta-a-ter-dois-tenistas-no-top-100-depois-de-19-meses-confira-ranking-dos-brasileiros.ghtml"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}
