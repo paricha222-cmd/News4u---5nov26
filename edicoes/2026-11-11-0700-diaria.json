@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-11-0700-diaria",
+  "title": "Edição diária",
+  "cutoff": "2026-11-11T07:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "sections": [
+    {
+      "name": "Economia",
+      "stories": [
+        {
+          "headline": "Ata do Copom aponta inflação resistente apesar da desaceleração.",
+          "summary": "O documento divulgado em 10 de novembro reforça a avaliação de que a política monetária deve permanecer restritiva por mais tempo. A novidade é o diagnóstico da ata, não uma nova decisão sobre a Selic.",
+          "source": "Agência Brasil, 10/11, 11h20",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ata-do-copom-indica-que-desaceleracao-da-economia-nao-conteve-inflacao"
+        },
+        {
+          "headline": "Dólar sobe 1,46% e atinge maior fechamento em 15 meses.",
+          "summary": "A moeda encerrou 10 de novembro a R$ 5,586. O Ibovespa recuou 0,52%, para 171.336,99 pontos, após inflação americana acima das expectativas. Os números se referem ao pregão de terça-feira.",
+          "source": "Agência Brasil, 10/11, 20h25",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-sobe-146-e-fecha-no-maior-valor-em-15-meses"
+        },
+        {
+          "headline": "Petrobras lucra R$ 39,8 bilhões no terceiro trimestre.",
+          "summary": "O lucro líquido cresceu 21,5% frente ao mesmo período de 2025. A companhia aprovou R$ 15,3 bilhões em dividendos e juros sobre capital próprio, com pagamentos previstos para fevereiro e março de 2027.",
+          "source": "Agência Brasil, 10/11, 21h37",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-tem-lucro-de-r-398-bilhoes-alta-de-215"
+        },
+        {
+          "headline": "PPSA e estatal argentina vão estudar gás de Vaca Muerta para o Brasil.",
+          "summary": "O memorando assinado com a GyP prevê troca de informações para avaliar a viabilidade do fornecimento. O objetivo é ampliar a oferta à indústria brasileira; ainda não há confirmação de fornecimento comercial.",
+          "source": "Times Brasil/Estadão Conteúdo, 10/11, 20h21",
+          "url": "https://timesbrasil.com.br/empresas-e-negocios/energia/ppsa-e-estatal-argentina-firmam-acordo-para-avaliar-fornecimento-de-gas-natural-de-vaca-muerta-ao-brasil/"
+        }
+      ]
+    },
+    {
+      "name": "Previdência",
+      "stories": [
+        {
+          "headline": "Prevcom Multi chega a 55 municípios em sete estados.",
+          "summary": "Lobato e Ângulo, no Paraná, e Aral Moreira, em Mato Grosso do Sul, aderiram ao plano em 9 de novembro. A expansão foi divulgada pela Prevcom no dia 10.",
+          "source": "Prevcom, 10/11, 02h57",
+          "url": "https://prevcom.com.br/Artigo/3125?titulo=prevcom-multi-chega-a-55-municipios-com-adesao-de-lobato-angulo-e-aral-moreira"
+        },
+        {
+          "headline": "Previc anuncia encontro sobre riscos ASG nos investimentos.",
+          "summary": "O Conexões Previc será realizado em 13 de novembro, às 10h, com foco na aplicação da Portaria 728/2026, no Plano ASG e na transparência das entidades fechadas de previdência complementar. É uma agenda de orientação, não uma nova norma.",
+          "source": "Previc, 10/11, 10h19",
+          "url": "https://www.gov.br/previc/pt-br/noticias/avaliacao-de-riscos-asg-nos-investimentos-das-efpc-sera-tema-do-proximo-conexoes-previc"
+        },
+        {
+          "headline": "INSS abre licitação para serviços da Central 135.",
+          "summary": "O prazo para propostas vai de 10 de novembro a 1º de dezembro. A contratação abrange atendimento telefônico e digital e ainda não foi concluída.",
+          "source": "INSS, 10/11, 17h53",
+          "url": "https://www.gov.br/inss/pt-br/assuntos/noticias/inss-abre-pregao-eletronico-para-contratacao-de-servicos-da-central-135-em-todo-brasil"
+        },
+        {
+          "headline": "Operação investiga fraudes no BPC no Ceará.",
+          "summary": "Foram cumpridos dez mandados de busca em Fortaleza e Limoeiro do Norte. Segundo o Ministério da Previdência, o prejuízo investigado supera R$ 4 milhões e envolve benefícios em nome de pessoas falecidas ou fictícias.",
+          "source": "Ministério da Previdência, 10/11, 11h54",
+          "url": "https://www.gov.br/previdencia/pt-br/noticias/2026/novembro/operacao-desarticula-organizacao-criminosa-que-fraudava-bpc-loas-no-ceara"
+        }
+      ]
+    },
+    {
+      "name": "Esportes",
+      "stories": [
+        {
+          "headline": "Seleção feminina é convocada para amistosos com o Japão.",
+          "summary": "Arthur Elias chamou 26 jogadoras para as partidas de 29 de novembro, em Hiroshima, e 5 de dezembro, em Okayama. Renata Costa integrará a comissão como auxiliar.",
+          "source": "CBF, 10/11, 15h15",
+          "url": "https://www.cbf.com.br/selecao-brasileira/noticias/selecao-feminina-principal/a/selecao-brasileira-feminina-e-convocada-para-amistosos-com-o-japao"
+        },
+        {
+          "headline": "Flamengo e Internacional abrem hoje a final da Copa do Brasil Feminina.",
+          "summary": "O jogo de ida está marcado para as 21h30, no Luso-Brasileiro. A volta será em 15 de novembro, às 16h, no Beira-Rio. Os horários são de Brasília.",
+          "source": "CBF, 9/11, 22h50",
+          "url": "https://www.cbf.com.br/futebol-brasileiro/noticias/copa-brasil/copa-brasil-feminino/cbf-divulga-tabela-detalhada-da-final-da-copa-do-brasil-feminina"
+        },
+        {
+          "headline": "F1 mantém planos de encerrar a temporada no Oriente Médio.",
+          "summary": "Imola deixou de ser uma alternativa para o fim do campeonato. A categoria segue planejando as etapas do Qatar, em 29 de novembro, e de Abu Dhabi, em 6 de dezembro, sujeitas às condições de segurança na região.",
+          "source": "Sky Sports, 10/11, 15h49 do Reino Unido",
+          "url": "https://www.skysports.com/f1/news/13610302/formula-1-proceeding-with-plans-to-finish-2026-season-in-middle-east-as-deadline-to-hold-race-at-imola-passes"
+        },
+        {
+          "headline": "Noskova vence Gauff e garante vaga na semifinal do WTA Finals.",
+          "summary": "A tenista venceu por duplo 6/3 e assegurou sua classificação para a próxima fase.",
+          "source": "WTA, 10/11",
+          "url": "https://www.wtatennis.com/news/4607589/noskova-secures-fage-wta-finals-semifinal-berth-with-straight-sets-win-over-gauff"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}
