@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-12-0700-diaria",
+  "title": "Edição diária",
+  "cutoff": "2026-11-12T07:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "sections": [
+    {
+      "name": "Economia",
+      "stories": [
+        {
+          "headline": "Governo anuncia pacote fiscal com impacto estimado de até R$ 60 bilhões.",
+          "summary": "As medidas apresentadas em 11 de novembro têm impacto estimado entre R$ 50 bilhões e R$ 60 bilhões em 2027. A implementação depende de aprovação do Congresso; os valores são projeções, não economia já realizada.",
+          "source": "Agência Brasil, 11/11, 17h48",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-anuncia-medidas-de-ajuste-para-economia-de-ate-r-60-bilhoes"
+        },
+        {
+          "headline": "Lucro ajustado do Banco do Brasil cai 66,5% no terceiro trimestre.",
+          "summary": "O resultado foi de R$ 1,27 bilhão, pressionado pela inadimplência no agronegócio. O banco reduziu a projeção de lucro anual para uma faixa de R$ 9 bilhões a R$ 11 bilhões.",
+          "source": "Agência Brasil, 11/11, 22h20",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/lucro-do-bb-cai-665-no-3o-trimestre-com-inadimplencia-do-agro"
+        },
+        {
+          "headline": "Receita anuncia proposta para facilitar a transição à CBS.",
+          "summary": "A proposta prevê cálculo estimado de créditos, com ajustes posteriores, durante a transição tributária. O texto será enviado ao Congresso e ainda não foi aprovado.",
+          "source": "Agência Brasil, 11/11, 13h32",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/proposta-que-facilita-transicao-tributaria-sera-enviada-ao-Congresso"
+        },
+        {
+          "headline": "Dólar recua 0,42% e fecha a R$ 5,5628.",
+          "summary": "A cotação do dólar à vista caiu no pregão de 11 de novembro. O valor corresponde ao fechamento de quarta-feira, não a uma cotação em tempo real.",
+          "source": "InfoMoney/Reuters, 11/11, 18h22",
+          "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-11112026/"
+        }
+      ]
+    },
+    {
+      "name": "Previdência",
+      "stories": [
+        {
+          "headline": "Previc restabelece o peticionamento eletrônico no SEI.",
+          "summary": "A autarquia confirmou a normalização do sistema após atualizações de segurança. O retorno efetivo atualiza a previsão de restabelecimento informada na edição de 5 de novembro.",
+          "source": "Previc, 11/11",
+          "url": "https://www.gov.br/previc/pt-br/noticias/sistema-sei-opera-normalmente"
+        },
+        {
+          "headline": "INSS amplia perícias em duas agências de Mato Grosso.",
+          "summary": "A partir de 12 de novembro, Alto Araguaia terá atendimento às quintas-feiras e Nova Xavantina, às sextas. As perícias serão por videoconferência nas agências, com agendamento pelo Meu INSS ou telefone 135.",
+          "source": "INSS, 11/11, 18h10",
+          "url": "https://www.gov.br/inss/pt-br/assuntos/noticias/agencias-do-inss-em-alto-araguaia-e-nova-xavantina-em-mato-grosso-passam-a-oferecer-pericia-medica"
+        },
+        {
+          "headline": "Prevbarco leva atendimento ao sul do Amapá.",
+          "summary": "O serviço atende Laranjal do Jari até 17 de novembro. A agenda segue em Vitória do Jari nos dias 18 e 19 e em Jarilândia no dia 20.",
+          "source": "INSS, 11/11, 13h13",
+          "url": "https://www.gov.br/inss/pt-br/assuntos/noticias/pela-primeira-vez-prevbarco-levara-atendimento-previdenciario-ao-amapa"
+        },
+        {
+          "headline": "INSS recebe certificação por fiscalização automática de contratos.",
+          "summary": "A iniciativa usa dados do CNIS para fiscalizar contratos. Até maio, havia sido aplicada a 136 contratos, envolvendo 93 empresas e 10.319 trabalhadores; os números não representam uma atualização de novembro.",
+          "source": "INSS, 11/11, 12h55",
+          "url": "https://www.gov.br/inss/pt-br/assuntos/noticias/inss-recebe-certificado-do-mgi-por-inovacao-na-fiscalizacao-automatica-de-contratos"
+        }
+      ]
+    },
+    {
+      "name": "Esportes",
+      "stories": [
+        {
+          "headline": "Internacional vira sobre o Flamengo e abre vantagem na final.",
+          "summary": "O Inter venceu por 3 a 1 o jogo de ida da final da Copa do Brasil Feminina. A volta será no domingo, 15 de novembro, às 16h, no Beira-Rio, em horário de Brasília.",
+          "source": "Itatiaia, 11/11, 23h28",
+          "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-feminino/internacional-vira-sobre-flamengo-e-encaminha-titulo-da-copa-do-brasil-feminina/"
+        },
+        {
+          "headline": "Pirelli desenvolve novos pneus de chuva para a F1 em 2027.",
+          "summary": "O trabalho ocorre após críticas aos pneus usados em Interlagos. A homologação pela FIA está prevista para dezembro e ainda não foi concluída.",
+          "source": "Itatiaia, 11/11, 15h46",
+          "url": "https://www.itatiaia.com.br/esportes/motor/formula-1/f1-pirelli-desenvolve-novos-pneus-de-chuva-para-2027-apos-criticas-no-gp-de-sao-paulo/"
+        },
+        {
+          "headline": "Stefani e Dabrowski conquistam segunda vitória no WTA Finals.",
+          "summary": "A dupla venceu Guo e Mladenovic por 7/6 (5), 4/6 e 10/5, aproximando-se das semifinais. O resultado não confirma, por si só, a classificação.",
+          "source": "ge, 11/11, 23h12; atualizado em 12/11, 1h19",
+          "url": "https://ge.globo.com/tenis/noticia/2026/11/11/stefani-e-dabrowski-vencem-segundo-jogo-e-se-aproximam-das-semifinais-do-wta-finals.ghtml"
+        },
+        {
+          "headline": "Andreeva supera Sabalenka no WTA Finals.",
+          "summary": "Na disputa de simples, Andreeva venceu por 6/4 e 6/0. O resultado foi informado na mesma cobertura do torneio.",
+          "source": "ge, 11/11, 23h12; atualizado em 12/11, 1h19",
+          "url": "https://ge.globo.com/tenis/noticia/2026/11/11/stefani-e-dabrowski-vencem-segundo-jogo-e-se-aproximam-das-semifinais-do-wta-finals.ghtml"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}
