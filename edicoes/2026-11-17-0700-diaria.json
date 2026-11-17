@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-17-0700-diaria",
+  "title": "Edição diária",
+  "cutoff": "2026-11-17T07:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "sections": [
+    {
+      "name": "Economia",
+      "stories": [
+        {
+          "headline": "IBC-Br recua 0,9% no terceiro trimestre.",
+          "summary": "O índice de atividade do Banco Central caiu frente ao trimestre anterior, com ajuste sazonal. Agropecuária, indústria e serviços recuaram. Em setembro, o índice caiu 0,2% no mês e subiu 1,4% em 12 meses. O IBC-Br não substitui o PIB oficial.",
+          "source": "Agência Brasil, 16/11, 12h02",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/atividade-economica-tem-queda-de-09-no-terceiro-trimestre"
+        },
+        {
+          "headline": "Dólar fecha perto de R$ 5,78 e Ibovespa cai 1,83%.",
+          "summary": "A moeda americana avançou mais de 2% na segunda-feira e teve o maior fechamento desde abril de 2025. O Ibovespa terminou aos 169.295,41 pontos.",
+          "source": "Agência Brasil, 16/11, 20h06",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-sobe-para-r-577-e-fecha-no-maior-valor-desde-abril-de-2025"
+        },
+        {
+          "headline": "Focus reduz projeções de inflação e crescimento para 2026.",
+          "summary": "A mediana para o IPCA recuou de 5,22% para 5,11%, e a do PIB, de 1,75% para 1,72%. A projeção para a Selic no fim do ano ficou em 13,75%. São expectativas de mercado, não dados realizados.",
+          "source": "Radioagência Nacional, 16/11, 10h34",
+          "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-11/analistas-reduzem-para-511-expectativa-da-inflacao-neste-ano"
+        },
+        {
+          "headline": "Fazenda estima redução de custos com regulação das grandes plataformas.",
+          "summary": "O estudo calcula uma economia potencial de R$ 15,3 bilhões a R$ 50,6 bilhões por ano. A análise considera o PL 4.675/2025, ainda em tramitação na Câmara. A projeção não representa economia já obtida.",
+          "source": "Agência Brasil, 16/11, 19h59",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/regulacao-de-big-techs-pode-reduzir-custos-em-ate-r-50-bilhoes"
+        }
+      ]
+    },
+    {
+      "name": "Previdência",
+      "stories": [
+        {
+          "headline": "MPS abre pesquisa sobre simuladores de benefícios das EFPC.",
+          "summary": "O levantamento recebe respostas até 27 de novembro e busca saber se os participantes de planos CD e CV têm informações suficientes para decidir sobre seus benefícios. A pesquisa não tem caráter fiscalizatório.",
+          "source": "Ministério da Previdência Social, 16/11, atualizado às 09h19",
+          "url": "https://www.gov.br/previdencia/pt-br/noticias/2026/novembro/ministerio-da-previdencia-social-lanca-pesquisa-sobre-simuladores-de-beneficios-das-entidades-fechadas-de-previdencia-complementar"
+        },
+        {
+          "headline": "Crédito do Trabalhador: homologação para EFPC é remarcada para 17/11.",
+          "summary": "Segundo comunicado da Dataprev reproduzido pela Abrapp, o novo calendário vale para os testes do modelo simplificado por EFPC e cooperativas de crédito singulares. A entrada em produção segue prevista para 25/11, condicionada à homologação, ao termo com o MTE e ao contrato com a Dataprev.",
+          "source": "Abrapp, 16/11, 12h18",
+          "url": "https://blog.abrapp.org.br/blog/dataprev-adia-inicio-da-homologacao-dos-servicos-do-credito-do-trabalhador-para-17-de-novembro/"
+        },
+        {
+          "headline": "Aprender Valor leva educação previdenciária ao ensino fundamental.",
+          "summary": "Banco Central e Ministério da Previdência disponibilizaram três projetos gratuitos para o 8º e o 9º anos, integrados a Matemática, História e Geografia. Os materiais tratam de planejamento de longo prazo, proteção social e da relação entre trabalho e previdência.",
+          "source": "Ministério da Previdência Social, 16/11, atualizado às 16h29",
+          "url": "https://www.gov.br/previdencia/pt-br/noticias/2026/novembro/alem-da-educacao-financeira-aprender-valor-passa-a-ofertar-tambem-educacao-previdenciaria"
+        },
+        {
+          "headline": "INSS realiza 315 perícias em mutirões no Paraná.",
+          "summary": "A ação de sábado (14) registrou 138 perícias em São José dos Pinhais, 91 em Colombo e 86 em Paranaguá. A unidade de Paranaguá também realizou seis avaliações sociais. Os números são de atendimentos, não de benefícios concedidos.",
+          "source": "INSS, 16/11, atualizado às 16h22",
+          "url": "https://www.gov.br/inss/pt-br/assuntos/noticias/inss-realiza-315-pericias-medicas-em-mutiroes-no-parana"
+        }
+      ]
+    },
+    {
+      "name": "Esportes",
+      "stories": [
+        {
+          "headline": "Haas confirma Rafael Câmara no GP de Las Vegas.",
+          "summary": "O brasileiro terá nova oportunidade pela equipe após estrear em Interlagos. Ryo Hirakawa participará apenas do primeiro treino livre, no carro de Oliver Bearman.",
+          "source": "Motorsport.com, 16/11, 09h56",
+          "url": "https://motorsport.uol.com.br/f1/news/f1-rafa-camara-correra-pela-haas-no-gp-de-las-vegas-confirma-equipe/10874780/"
+        },
+        {
+          "headline": "Alcaraz estreia no ATP Finals com duplo 6/2.",
+          "summary": "O espanhol venceu Frances Tiafoe em 1h10, em Turim, na abertura do grupo Ivan Lendl. Alcaraz busca seu primeiro título no torneio.",
+          "source": "ge, 16/11, 11h23",
+          "url": "https://ge.globo.com/tenis/noticia/2026/11/16/alcaraz-domina-tiafoe-e-estreia-com-vitoria-no-atp-finals.ghtml"
+        },
+        {
+          "headline": "Morre Dino Sani, campeão mundial de 1958, aos 94 anos.",
+          "summary": "O São Paulo confirmou a morte do ex-volante no domingo. Campeão paulista de 1957 pelo clube, Dino Sani também defendeu Milan, Boca Juniors e Corinthians.",
+          "source": "São Paulo FC, 16/11, 08h33",
+          "url": "https://www.saopaulofc.net/nota-de-pesar-dino-sani/"
+        },
+        {
+          "headline": "Copa feminina de 2027 terá pacotes a partir de R$ 30 por jogo.",
+          "summary": "A primeira etapa de vendas começa em 1º de dezembro, às 10h de Brasília, no portal da Fifa. O menor valor vale para determinados pacotes da categoria 3, com meia-entrada a partir de R$ 15 por jogo.",
+          "source": "Agência Gov / Secom, 16/11, 08h50",
+          "url": "https://agenciagov.ebc.com.br/noticias/202611/governo-federal-faz-acordo-com-fifa-e-copa-feminina-de-2027-tera-parte-de-ingressos-a-precos-populares"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}
