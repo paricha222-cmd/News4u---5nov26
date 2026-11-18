@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-18-0700-diaria",
+  "title": "Edição diária",
+  "cutoff": "2026-11-18T07:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "sections": [
+    {
+      "name": "Economia",
+      "stories": [
+        {
+          "headline": "Estudo estima Custo Brasil em R$ 3,5 trilhões.",
+          "summary": "O MBC e a Monitor Deloitte estimam que entraves para produzir, contratar e investir equivaleram a 27,5% do PIB em 2025. A metodologia agora inclui insegurança, ilegalidade e juros reais. Pelo método anterior, a estimativa seria de R$ 2,9 trilhões.",
+          "source": "Reuters/UOL, 18/11, 05h21",
+          "url": "https://economia.uol.com.br/noticias/reuters/2026/11/18/custo-brasil-sobe-a-r35-tri-ao-ano-com-seguranca-e-juros-reais-diz-estudo-mbcdeloitte.htm"
+        },
+        {
+          "headline": "BC anuncia dois leilões de câmbio de até US$ 1 bilhão no total.",
+          "summary": "O Banco Central recebe propostas hoje, das 10h30 às 10h35, para vender dólares com compromisso de recompra. A liquidação está prevista para 23/11. As operações ainda não haviam ocorrido no fechamento.",
+          "source": "Reuters/Terra, 17/11, 18h57",
+          "url": "https://www.terra.com.br/amp/economia/bc-anuncia-leiloes-de-linha-no-total-de-us1-bilhao-para-quarta-feira,32fb870ecd178473b8efff82286ba2a00qfeag82.html"
+        },
+        {
+          "headline": "B3 detalha entrada de BDRs de empresas brasileiras no Ibovespa.",
+          "summary": "Certificados de ações de empresas brasileiras listadas no exterior poderão entrar no índice a partir de maio de 2027. O peso dos BDRs começará pela metade do calculado, chegará ao integral em setembro e terá teto conjunto de 10% nos rebalanceamentos.",
+          "source": "B3, 17/11",
+          "url": "https://www.b3.com.br/pt_br/noticias/ibovespa-b3-tera-bdrs-de-empresas-brasileiras-a-partir-de-maio-de-2027-entenda-as-novas-regras.htm"
+        },
+        {
+          "headline": "Brasil internaliza acordo para simplificar exportação de cosméticos.",
+          "summary": "O acordo da Aladi prevê simplificar documentos e aproximar regras sanitárias para cosméticos, itens de higiene e perfumaria, sem mudar tarifas. A vigência depende das notificações de pelo menos dois países e de um prazo posterior de 60 dias.",
+          "source": "Agência Brasil, 17/11, 17h48",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-simplifica-exportacao-de-cosmeticos-para-america-latina"
+        }
+      ]
+    },
+    {
+      "name": "Previdência",
+      "stories": [
+        {
+          "headline": "Previc divulga balanço da gestão 2023–2026.",
+          "summary": "A autarquia reuniu mudanças na regulação, na supervisão baseada em risco e no licenciamento. O balanço também aponta prioridades futuras, como o SIS PREVIC e a atualização do regime sancionador.",
+          "source": "Previc, 17/11, 10h31",
+          "url": "https://www.gov.br/previc/pt-br/publicacoes/balanco-de-gestao-2023-2026"
+        },
+        {
+          "headline": "Mulheres são maioria no quadro, mas minoria na direção da previdência complementar.",
+          "summary": "Segundo dados apresentados pelo Ministério da Previdência e divulgados pela Abrapp, mulheres representam cerca de 60% do quadro do segmento e 24% das diretorias executivas. São 21% nos conselhos deliberativos e 25% nos fiscais.",
+          "source": "Abrapp, 17/11, 18h",
+          "url": "https://blog.abrapp.org.br/blog/elas-movem-a-previdencia-rede-de-mulheres-do-setor-ja-conta-com-participacao-de-1200-profissionais/"
+        },
+        {
+          "headline": "Conselho debate atualização do nexo entre atividade econômica e incapacidade.",
+          "summary": "O Ministério da Previdência apresentou ao CNPS o projeto de atualização do Nexo Técnico Epidemiológico Previdenciário, que relaciona atividades econômicas e agravos que causam incapacidade. A proposta está em consulta pública e ainda não é regra definitiva.",
+          "source": "Ministério da Previdência Social, 17/11, 18h07",
+          "url": "https://www.gov.br/previdencia/pt-br/noticias/2026/novembro/ministerio-da-previdencia-social-apresenta-projeto-que-vai-aprimorar-o-ntep"
+        },
+        {
+          "headline": "Agenda: seminário de previdência do servidor recebe inscrições até 24/11.",
+          "summary": "Funpresp-Exe, Funpresp-Jud e DF-PreviCom realizam o encontro gratuito em 26/11, em Brasília, com transmissão no YouTube da Funpresp-Exe. A programação inclui endividamento, planejamento patrimonial e regras dos planos.",
+          "source": "Funpresp, 29/09; agenda reconferida em 18/11",
+          "url": "https://www.funpresp.com.br/fique-por-dentro/noticias/vem-ai-a-3a-edicao-do-seminario-de-previdencia-complementar-do-servidor-publico"
+        }
+      ]
+    },
+    {
+      "name": "Esportes",
+      "stories": [
+        {
+          "headline": "Brasil encerra o ano com goleada de 7 a 0 sobre Singapura.",
+          "summary": "Vinicius Júnior marcou três vezes no último amistoso de 2026. A Seleção abriu 4 a 0 no primeiro tempo, sob o comando de Francesco Mauri, substituto do suspenso Carlo Ancelotti.",
+          "source": "Gazeta Esportiva, 17/11, 08h51",
+          "url": "https://www.gazetaesportiva.com/times/brasil/brasil-goleia-singapura-7-a-0-ultimo-amistoso-2026/"
+        },
+        {
+          "headline": "CBF anuncia perda de pontos por salários atrasados a partir de 2028.",
+          "summary": "Clubes das Séries A e B terão de comprovar, 20 dias antes do início do Brasileiro, que estão em dia com atletas e comissão técnica. Quem estiver em atraso começará a competição com três pontos a menos, segundo a CBF.",
+          "source": "CBF, 17/11, 17h15",
+          "url": "https://www.cbf.com.br/a-cbf/noticias/por-dentro-cbf-noticias/a/cbf-preve-deducao-de-pontos-para-clubes-que-atrasarem-salarios-a-partir-de-2028"
+        },
+        {
+          "headline": "Rafael Matos e Orlando Luz ficam sem chances no ATP Finals.",
+          "summary": "A dupla brasileira perdeu para os franceses Théo Arribagé e Albano Olivetti por 6/4 e 7/6 (4), em Turim. Com duas derrotas, Matos e Luz ainda disputam a última rodada do grupo, mas já estão eliminados.",
+          "source": "ge, 17/11, 15h40",
+          "url": "https://ge.globo.com/tenis/noticia/2026/11/17/orlando-luz-e-rafael-matos-perdem-para-franceses-e-sao-eliminados-do-atp-finals.ghtml"
+        },
+        {
+          "headline": "Cadillac apresenta pintura especial para o GP de Las Vegas.",
+          "summary": "Os carros de Sergio Pérez e Valtteri Bottas terão pintura com efeito translúcido na antepenúltima corrida da temporada. A largada está prevista para domingo, à 1h de Brasília.",
+          "source": "ge, 17/11, 15h29",
+          "url": "https://ge.globo.com/motor/formula-1/noticia/2026/11/17/cadillac-revela-pintura-para-o-gp-de-las-vegas-da-f1-2026.ghtml"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}
