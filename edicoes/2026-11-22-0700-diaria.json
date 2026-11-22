@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-22-0700-diaria",
+  "title": "Edição diária",
+  "cutoff": "2026-11-22T07:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "sections": [
+    {
+      "name": "Economia",
+      "stories": [
+        {
+          "headline": "COP31 apresenta nova minuta sem menção explícita a combustíveis fósseis.",
+          "summary": "A proposta para destravar a conferência em Antália ainda enfrentava objeções na manhã de domingo. O Panamá pediu, entre outros pontos, mais recursos para que países em desenvolvimento se adaptem às mudanças climáticas. A minuta ainda não era um acordo aprovado.",
+          "source": "Associated Press, 22/11",
+          "url": "https://apnews.com/article/climate-un-turkey-fossil-fuels-global-warming-f6e36c4caf13ec6fed57c9f077cbd067"
+        },
+        {
+          "headline": "IBGE divulga prévia da inflação e dados de emprego nesta semana.",
+          "summary": "O IPCA-15 de novembro está previsto para quinta-feira (26). Na sexta-feira (27), o IBGE tem programada a divulgação mensal da PNAD Contínua, com referência a outubro.",
+          "source": "IBGE, calendário consultado em 22/11",
+          "url": "https://www.ibge.gov.br/calendario/conjunturais"
+        },
+        {
+          "headline": "EUA divulgam revisão do PIB e dados de renda e consumo na quarta.",
+          "summary": "O BEA tem programada para 25 de novembro a segunda estimativa do PIB do terceiro trimestre, junto com dados de lucros corporativos. Na mesma data saem os dados de renda e gastos pessoais de outubro.",
+          "source": "Bureau of Economic Analysis, calendário consultado em 22/11",
+          "url": "https://www.bea.gov/news/schedule"
+        },
+        {
+          "headline": "Simples passa a pedir a folha de 12 meses para todas as atividades.",
+          "summary": "A atualização do PGDAS-D abrange os períodos de apuração de novembro e dezembro de 2026. Segundo a Fazenda, os dados declarados também servirão para determinar as alíquotas efetivas do IBS e da CBS a informar nos documentos fiscais eletrônicos.",
+          "source": "Ministério da Fazenda, atualizado em 19/11, 15h39",
+          "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/programa-gerador-do-documento-de-arrecadacao-do-simples-nacional-pgdas-d-e-atualizado-para-atender-a-reforma-tributaria-a-partir-de-novembro-de-2026"
+        }
+      ]
+    },
+    {
+      "name": "Previdência",
+      "stories": [
+        {
+          "headline": "Abrapp e Previc discutem como avaliar a governança dos fundos de pensão.",
+          "summary": "Em reunião no dia 18, as equipes discutiram os pesos do Índice de Transparência e Governança (ITG-Previc) e diferenças de porte e complexidade entre entidades. A Previc tem webinar sobre o tema previsto para 27 de novembro. A reunião não anunciou mudança na metodologia.",
+          "source": "Abrapp, 19/11",
+          "url": "https://blog.abrapp.org.br/blog/abrapp-e-previc-abrem-dialogo-tecnico-sobre-a-metodologia-do-itg-previc/"
+        },
+        {
+          "headline": "RPPS deve observar a lei local na habilitação tardia à pensão por morte.",
+          "summary": "O Gescon de novembro orienta que as regras do INSS não se aplicam automaticamente ao regime próprio. Cabe ao ente seguir a legislação local vigente e avaliar eventual atualização que proteja os dependentes e preserve o equilíbrio do regime.",
+          "source": "Ministério da Previdência Social, 19/11, 19h",
+          "url": "https://www.gov.br/previdencia/pt-br/assuntos/rpps/gescon/informativo-gescon-2026-novembro-de-2026"
+        },
+        {
+          "headline": "Prazo para fundos de pensão deixarem comitês de investimento de FIPs termina em dezembro.",
+          "summary": "As entidades que ainda têm representantes nesses comitês devem sair até 31 de dezembro de 2026. É um prazo de transição já previsto na norma da Previc e não uma exigência de vender as cotas dos fundos.",
+          "source": "Resolução Previc nº 26/2025, prazo vigente consultado em 22/11",
+          "url": "https://previc.bnweb.org/bnweb/upload/pasta1/acervo1222/1222_1535.pdf"
+        },
+        {
+          "headline": "INSS começa na terça a pagar o 13º a quem não recebeu a antecipação.",
+          "summary": "O abono de quem começou a receber depois da antecipação, em benefício que dá direito ao 13º, entra no calendário regular de novembro. A janela vai de 24 de novembro a 7 de dezembro, conforme o final do número do benefício.",
+          "source": "INSS, orientação de 09/07, calendário de novembro",
+          "url": "https://www.gov.br/inss/pt-br/assuntos/noticias/beneficiarios-que-comecaram-a-receber-apos-maio-terao-13o-salario-pago-em-novembro/"
+        }
+      ]
+    },
+    {
+      "name": "Esportes",
+      "stories": [
+        {
+          "headline": "Flamengo empata com Palmeiras e conquista o Brasileirão.",
+          "summary": "O 1 a 1 em São Paulo garantiu o título com duas rodadas de antecedência. Jhon Arias abriu o placar para o Palmeiras e Samuel Lino empatou. É o quinto título do Flamengo na era dos pontos corridos, segundo a CBF.",
+          "source": "CBF, 21/11, 18h26",
+          "url": "https://www.cbf.com.br/futebol-brasileiro/noticias/campeonato-brasileiro-serie-a/a/flamengo-conquista-brasileirao-2026"
+        },
+        {
+          "headline": "Verstappen vence em Las Vegas com Norris e Piastri no pódio.",
+          "summary": "Max Verstappen cruzou a linha 0,639 segundo à frente de Lando Norris. Oscar Piastri ficou em terceiro e Kimi Antonelli foi o quarto na corrida disputada na madrugada de domingo no Brasil.",
+          "source": "Fórmula 1, resultado consultado em 22/11",
+          "url": "https://www.formula1.com/en/results/2026/races/1300/las-vegas/race-result"
+        },
+        {
+          "headline": "Boca Juniors vence o Atlético-MG e leva a Sul-Americana.",
+          "summary": "O clube argentino ganhou a final por 2 a 0 em Barranquilla, na Colômbia. O Boca abriu o placar no primeiro tempo e ampliou na etapa final.",
+          "source": "Conmebol, resultado de 21/11",
+          "url": "https://gol.conmebol.com/es/fixture/view/1727"
+        },
+        {
+          "headline": "Alcaraz e Zverev decidem o ATP Finals em Turim.",
+          "summary": "Carlos Alcaraz virou contra Ben Shelton por 3/6, 6/3 e 7/6. Alexander Zverev bateu Daniil Medvedev por 7/6 e 6/4. A final de simples deste domingo está prevista para não antes das 14h de Brasília.",
+          "source": "Nitto ATP Finals, programação consultada em 22/11",
+          "url": "https://www.nittoatpfinals.com/en/scores-centre/schedule"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}
