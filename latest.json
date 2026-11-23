@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "id": "2026-11-22-0700-diaria",
+  "id": "2026-11-23-0700-diaria",
   "title": "Edição diária",
-  "cutoff": "2026-11-22T07:00:00-03:00",
+  "cutoff": "2026-11-23T07:00:00-03:00",
   "timezone": "America/Sao_Paulo",
-  "source_path": "edicoes/2026-11-22-0700-diaria.json",
-  "html_path": "arquivo/news4u-2026-11-22-0700-diaria.html",
-  "markdown_path": "arquivo/news4u-2026-11-22-0700-diaria.md",
-  "content_sha256": "c16de48720513c9a35e1d635debc1ff4db7f90444c2098f6da74ba0a57a31611",
-  "html_sha256": "d4add6a5b86304e81f4b078ff4535f6def8d92f0b982fcb86c88cc487b93b07c",
-  "markdown_sha256": "9075fd8d5f3b0fa3e3d18e13bad4a16d921b63547d34afb51f386c67d23aa978"
+  "source_path": "edicoes/2026-11-23-0700-diaria.json",
+  "html_path": "arquivo/news4u-2026-11-23-0700-diaria.html",
+  "markdown_path": "arquivo/news4u-2026-11-23-0700-diaria.md",
+  "content_sha256": "ff8d8c10efffbf0ccb3db4ae04d6b6e2047d448ea6f56c53efa4e7812651128b",
+  "html_sha256": "7e1af3637986a538dd131ca9e62005db682ccaa814155e49372e6e95f95d8593",
+  "markdown_sha256": "7d4b0176e8f885cb2ce6f75ad1238efab5e50898322c7f60cb0417e034eef564"
 }
