@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-24-0700-diaria",
+  "title": "Edição diária",
+  "cutoff": "2026-11-24T07:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "sections": [
+    {
+      "name": "Economia",
+      "stories": [
+        {
+          "headline": "Focus eleva a estimativa do dólar para R$ 5,55 no fim de 2026.",
+          "summary": "A projeção anterior era de R$ 5,40. A mediana para o IPCA deste ano passou de 5,11% para 5,15%, e a de crescimento do PIB caiu de 1,72% para 1,70%. São estimativas do mercado, não metas do Banco Central.",
+          "source": "Agência Brasil, 23/11, 10h11",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-do-dolar-para-r-555-em-2026"
+        },
+        {
+          "headline": "Bolsas asiáticas sobem após recuperação das ações de tecnologia.",
+          "summary": "Segundo a Reuters, o retorno de Jensen Huang ao comando da Nvidia ajudou a puxar a recuperação de ações ligadas à inteligência artificial. O movimento na Ásia veio depois de uma forte alta em Wall Street na segunda-feira.",
+          "source": "Reuters, 24/11",
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-24/"
+        },
+        {
+          "headline": "Brent e WTI tocam os menores níveis desde agosto.",
+          "summary": "Às 6h15 de Brasília, o Brent recuava a US$ 88,62 e o WTI a US$ 79,53 por barril. Segundo a Reuters, sinais de aumento da oferta pesaram nas cotações, apesar do risco de interrupção no Golfo. Os preços são intradiários.",
+          "source": "Reuters, 24/11",
+          "url": "https://www.reuters.com/business/energy/oil-holds-near-three-month-low-rising-supply-offsets-hormuz-threat-2026-11-24/"
+        },
+        {
+          "headline": "Balança comercial tem superávit de US$ 3,1 bilhões na terceira semana de novembro.",
+          "summary": "A Secex informou exportações de US$ 8,5 bilhões e importações de US$ 5,4 bilhões na semana. Os dados são preliminares e não representam o fechamento do mês.",
+          "source": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços, 23/11",
+          "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026/novembro/brasil-registra-superavit-de-us-3-1-bi-na-terceira-semana-de-novembro"
+        }
+      ]
+    },
+    {
+      "name": "Previdência",
+      "stories": [
+        {
+          "headline": "Previc passa a receber pedidos de alteração de estatuto de EFPC pelo Gov.br.",
+          "summary": "Desde 23 de novembro, os novos pedidos usam o serviço digital e devem ser enviados por representante autorizado. Processos em andamento no SEI permanecem ali. A mudança de canal não elimina as exigências de documentação.",
+          "source": "Previc, 23/11, 13h22",
+          "url": "https://www.gov.br/previc/pt-br/noticias/previc-automatiza-requerimentos-de-alteracao-de-estatuto-de-efpc"
+        },
+        {
+          "headline": "Câmara debate participação das mulheres na previdência complementar.",
+          "summary": "A Comissão de Direitos Humanos marcou audiência para as 10h de Brasília desta terça. A pauta reúne convidados do Ministério da Previdência, da Previc, da Abrapp e de entidades do setor para discutir participação feminina, inclusive em espaços de decisão.",
+          "source": "Câmara dos Deputados, agenda consultada em 24/11",
+          "url": "https://www.camara.leg.br/evento-legislativo/83308"
+        },
+        {
+          "headline": "Conselho do RPPS de Mossoró inclui a regularidade previdenciária na pauta.",
+          "summary": "A convocação da assembleia de quinta-feira, às 11h em primeira chamada, inclui a situação do Certificado de Regularidade Previdenciária, parcelamentos e envio de demonstrativos. Trata-se da pauta da reunião, não de uma decisão sobre o certificado.",
+          "source": "Diário Oficial de Mossoró, convocação consultada em 24/11",
+          "url": "https://dom.mossoro.rn.gov.br/dom/publicacao/2007"
+        },
+        {
+          "headline": "INSS inicia calendário de novembro e detalha as datas por faixa de valor.",
+          "summary": "Benefícios de até um salário mínimo começam a ser pagos hoje; acima do mínimo, a partir de 1º de dezembro. O calendário vai até 7 de dezembro e inclui o 13º de quem tem direito e não recebeu a antecipação. Para localizar a data, use o último dígito antes do traço, sem considerar o dígito verificador.",
+          "source": "INSS, 23/11, 10h38",
+          "url": "https://www.gov.br/inss/pt-br/assuntos/noticias/comeca-nesta-terca-24-o-pagamento-do-13o-salario-e-de-beneficios-e-auxilios-referentes-ao-mes-de-novembro"
+        }
+      ]
+    },
+    {
+      "name": "Esportes",
+      "stories": [
+        {
+          "headline": "Grêmio vence o Santos por 2 a 0 no Morumbis.",
+          "summary": "Amuzu abriu o placar e Braithwaite marcou de pênalti na segunda etapa. O resultado da 36ª rodada tirou o Grêmio da zona de rebaixamento no fechamento da noite de segunda-feira.",
+          "source": "UOL Esporte, jogo de 23/11",
+          "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/23/santos-x-gremio-brasileirao.ghtm"
+        },
+        {
+          "headline": "Chapecoense recebe o Palmeiras às 18h pela 37ª rodada.",
+          "summary": "O confronto desta terça-feira está previsto para as 18h de Brasília, na Arena Condá, em Chapecó, segundo a tabela da CBF.",
+          "source": "CBF, tabela consultada em 24/11",
+          "url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/chapecoense-x-palmeiras/832260"
+        },
+        {
+          "headline": "Pirelli leva ao Qatar os três compostos mais duros da gama.",
+          "summary": "C1, C2 e C3 compõem a seleção deste fim de semana. A fornecedora atribui a escolha às cargas impostas pelas curvas rápidas de Lusail, especialmente nos pneus dianteiros.",
+          "source": "Pirelli, seleção consultada em 24/11",
+          "url": "https://press.pirelli.com/tyre-compounds-selected-for-the-final-three-races-of-the-season/"
+        },
+        {
+          "headline": "Arribage e Olivetti conquistam o título de duplas do ATP Finals.",
+          "summary": "Os franceses perderam o primeiro set para Marcelo Arévalo e Mate Pavić, mas viraram a final de domingo em Turim: 3/6, 7/6 e 10/6 no desempate decisivo.",
+          "source": "Nitto ATP Finals, resultado de 22/11",
+          "url": "https://www.nittoatpfinals.com/en/scores-centre/results"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}
