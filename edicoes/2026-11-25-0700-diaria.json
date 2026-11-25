@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-25-0700-diaria",
+  "title": "Edição diária",
+  "cutoff": "2026-11-25T07:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "sections": [
+    {
+      "name": "Economia",
+      "stories": [
+        {
+          "headline": "Arrecadação federal bate recorde para outubro.",
+          "summary": "A Receita Federal registrou R$ 294 bilhões em receitas, alta real de 7,28% ante outubro de 2025. De janeiro a outubro, o total chegou a R$ 2,645 trilhões, alta real de 7%.",
+          "source": "Agência Brasil, 24/11, 12h57",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/arrecadacao-federal-atinge-r-294-bilhoes-e-bate-recorde-para-outubro"
+        },
+        {
+          "headline": "Lula sanciona medidas de ajuste fiscal.",
+          "summary": "A lei permite bloqueios adicionais de despesas. O impacto estimado das medidas no resultado primário de 2027 fica entre R$ 45,1 bilhões e R$ 56,1 bilhões, segundo a estimativa citada pela Agência Brasil.",
+          "source": "Agência Brasil, 24/11, 17h25",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-sanciona-ajuste-fiscal-aprovado-no-congresso"
+        },
+        {
+          "headline": "Simples Nacional atualiza regras para a transição tributária.",
+          "summary": "A Resolução CGSN 196 atualiza tabelas e procedimentos de declaração e apuração. As disposições relacionadas ao IBS e à CBS começam a produzir efeitos em janeiro de 2027, conforme o cronograma de transição.",
+          "source": "Receita Federal, 24/11, 8h36",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/comite-gestor-do-simples-nacional-publica-novas-regras-para-o-simples-nacional-e-para-a-transicao-da-reforma-tributaria/"
+        },
+        {
+          "headline": "Atividade econômica argentina cai 1,2% na comparação anual.",
+          "summary": "O indicador mensal de setembro avançou 1,1% frente a agosto, com ajuste sazonal. O dado mensal não substitui o PIB oficial do terceiro trimestre.",
+          "source": "Reuters/UOL, 24/11, 18h15",
+          "url": "https://economia.uol.com.br/noticias/reuters/2026/11/24/argentina-entra-em-recessao-com-contracao-da-economia-em-setembro.htm"
+        }
+      ]
+    },
+    {
+      "name": "Previdência",
+      "stories": [
+        {
+          "headline": "PiauíPrev começa a se preparar para a certificação Pró-Gestão RPPS.",
+          "summary": "A fundação apresentou às equipes os requisitos do programa e as etapas que cada área deverá cumprir. A reunião marcou o início da adequação, não a concessão da certificação.",
+          "source": "Governo do Piauí, 24/11, 12h53",
+          "url": "https://www.pi.gov.br/piauiprev-inicia-processo-para-obter-certificacao-que-fortalece-a-gestao-previdenciaria-do-estado/"
+        },
+        {
+          "headline": "UniAbrapp apoia pesquisa sobre decisões de contribuição na previdência fechada.",
+          "summary": "O estudo investiga escolhas em planos CD e CV e como a apresentação das opções pode influenciar a formação de reservas. Há formulários para EFPC do Centro-Oeste e Sudeste e para participantes ativos.",
+          "source": "Abrapp, 24/11, 20h",
+          "url": "https://blog.abrapp.org.br/blog/associadas-podem-participar-de-pesquisa-sobre-economia-comportamental-na-previdencia-complementar/"
+        },
+        {
+          "headline": "Levantamento identifica R$ 5,32 bilhões de RPPS em fundos de participações.",
+          "summary": "A DIRIN identificou 164 RPPS com cotas de FIP com base na última carteira declarada por cada regime. O valor equivale a 1,1% das aplicações analisadas, ante R$ 2,51 bilhões alocados nessa classe em dezembro de 2023.",
+          "source": "DIRIN Dados, 24/11",
+          "url": "https://blog.dirin.com.br/2026/11/24/aplicacao-em-fip-dos-regimes-proprios-de-previdencia-chega-a-r-532-bilhoes-e-mais-que-dobra-desde-2023/"
+        },
+        {
+          "headline": "RPPS de Juazeiro informa patrimônio investido de R$ 544,2 milhões em outubro.",
+          "summary": "O instituto informou também que antecipou para 19/11 o pagamento de R$ 8,06 milhões brutos a 1.192 aposentados e pensionistas. O patrimônio investido não mede por si só a rentabilidade nem o equilíbrio atuarial.",
+          "source": "Instituto de Previdência de Juazeiro, atualizado em 24/11, 13h14",
+          "url": "https://www.ipj.ba.gov.br/noticias/ipj-antecipa-pagamento-de-novembro-para-1-192-beneficiarios-e-registra-patrimonio-investido-de-r-544-milhoes"
+        }
+      ]
+    },
+    {
+      "name": "Esportes",
+      "stories": [
+        {
+          "headline": "Chapecoense faz 3 a 0 no Palmeiras em noite de homenagens.",
+          "summary": "O jogo na Arena Condá marcou o início dos tributos pelos dez anos do acidente aéreo de 2016. Alan Ruschel, sobrevivente e ex-lateral do clube, foi homenageado no intervalo.",
+          "source": "ge, 24/11",
+          "url": "https://ge.globo.com/sc/futebol/times/chapecoense/noticia/2026/11/24/alan-ruschel-e-homenageado-no-intervalo-de-chapecoense-x-palmeiras.ghtml"
+        },
+        {
+          "headline": "Real Madrid vira e goleia o PSV pela Champions.",
+          "summary": "O Real saiu atrás em casa, marcou cinco vezes no segundo tempo e venceu por 5 a 1, com dois gols de Mbappé e um de Vini Jr. A equipe venceu as cinco primeiras partidas desta edição.",
+          "source": "Real Madrid, 24/11",
+          "url": "https://www.realmadrid.com/en-US/news/football/first-team/reports/cronica-real-madrid-psv-j5-champions-league-24-11-2026"
+        },
+        {
+          "headline": "Bortoleto mira pontos no Catar para aproximar a Audi da Haas.",
+          "summary": "A Audi chega à penúltima etapa com 28 pontos, três a menos que a Haas, sétima colocada no Mundial de Construtores.",
+          "source": "Motorsport, 24/11, 11h57",
+          "url": "https://motorsport.uol.com.br/f1/news/f1-bortoleto-mira-avanco-da-audi-no-mundial-de-construtores/10877428/"
+        },
+        {
+          "headline": "República Tcheca elimina o Canadá e avança na Copa Davis.",
+          "summary": "Tomas Machac e Jiri Lehecka venceram os dois jogos de simples em Bolonha. Na semifinal, os tchecos aguardam o vencedor do confronto entre Itália e Coreia do Sul.",
+          "source": "TenisBrasil, 24/11, 17h22",
+          "url": "https://tenisbrasil.uol.com.br/vitorias-de-machac-e-lehecka-garantem-tchecos-na-semifinal-da-davis.html"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}
