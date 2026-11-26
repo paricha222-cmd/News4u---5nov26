@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-26-0700-diaria",
+  "title": "Edição diária",
+  "cutoff": "2026-11-26T07:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "sections": [
+    {
+      "name": "Economia",
+      "stories": [
+        {
+          "headline": "BC e CMN apertam regras para conter o superendividamento.",
+          "summary": "A maior parte das medidas entra em vigor em julho de 2027. Os emissores de cartão deverão reduzir gradualmente o limite de quem usar o rotativo em pelo menos três faturas distintas em seis meses.",
+          "source": "Agência Brasil, 25/11, 20h37",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmn-e-bc-anunciam-novas-regras-para-conter-endividamento-das-familias"
+        },
+        {
+          "headline": "EUA propõem tarifa de 10% sobre aeronaves prontas do Brasil.",
+          "summary": "A proposta em consulta pública também prevê elevar a tarifa do açúcar importado fora da cota. O governo brasileiro criticou as medidas e defendeu uma solução negociada. As tarifas propostas ainda não estão em vigor.",
+          "source": "Agência Brasil, 25/11, 19h34",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-critica-possivel-novo-tarifaco-dos-eua-e-diz-que-nao-cedera"
+        },
+        {
+          "headline": "PIB dos EUA cresce 4,3% em ritmo anualizado no terceiro trimestre.",
+          "summary": "A segunda estimativa do órgão oficial de estatísticas econômicas mede o crescimento em relação ao trimestre anterior, anualizado. O número não é a variação em relação ao mesmo trimestre de 2025.",
+          "source": "Bureau of Economic Analysis, 25/11, 10h30 de Brasília",
+          "url": "https://www.bea.gov/sites/default/files/2026-11/gdp3q26-2nd.pdf"
+        },
+        {
+          "headline": "Confiança da construção cai 4,9 pontos em novembro.",
+          "summary": "O índice da FGV IBRE recuou para 85,8 pontos. As expectativas caíram 7,7 pontos, para 84,9, com destaque negativo no segmento de edificações.",
+          "source": "FGV IBRE, 25/11",
+          "url": "https://portalibre.fgv.br/noticias/confianca-da-construcao-caiu-em-novembro"
+        }
+      ]
+    },
+    {
+      "name": "Previdência",
+      "stories": [
+        {
+          "headline": "Dataprev adia consulta de margem do Crédito do Trabalhador para EFPCs e cooperativas.",
+          "summary": "A implantação prevista para 25/11 não ocorreu. Segundo comunicado reproduzido pela Abrapp, a liberação de acessos e a formalização da habilitação e dos contratos com MTE e Dataprev ainda estavam em andamento. Não foi informada nova data.",
+          "source": "Abrapp, 25/11, 20h45",
+          "url": "https://blog.abrapp.org.br/blog/credito-do-trabalhador-dataprev-adia-implantacao-da-solucao-de-acesso-a-plataforma-de-consulta/"
+        },
+        {
+          "headline": "Capef esclarece dedução de contribuições extraordinárias no IR.",
+          "summary": "Para o Plano BD, a entidade explicou que contribuições elegíveis para equacionar déficit dividem com as normais o limite de 12% dos rendimentos tributáveis considerados na declaração. O manual público da Receita ainda traz a orientação anterior.",
+          "source": "Capef, 25/11",
+          "url": "https://www.capef.com.br/site/noticias/capef-esclarece-parecer-da-pgfn-sobre-a-deducao-de-contribuicoes-extraordinarias-no-ir"
+        },
+        {
+          "headline": "Ministério e tribunais de contas articulam cooperação na fiscalização previdenciária.",
+          "summary": "O acordo firmado em Belém pelo Ministério da Previdência, Atricon e Instituto Rui Barbosa prevê capacitação e troca de informações sobre os regimes próprios e a previdência complementar dos servidores. Os tribunais de contas interessados poderão aderir.",
+          "source": "TCE-TO, 25/11",
+          "url": "https://www.tceto.tc.br/severiano-costandrade-coordena-reuniao-sobre-previdencia-publica-no-x-entc-em-belem-pa/"
+        },
+        {
+          "headline": "Comparecimento às urnas renova prova de vida de mais de 22,4 milhões de benefícios do INSS.",
+          "summary": "Segundo o Ministério da Previdência, a votação respondeu por 72% das comprovações entre os 31,2 milhões de benefícios com prova de vida em dia. As aposentadorias por idade foram o maior grupo entre as renovações nas eleições.",
+          "source": "Ministério da Previdência Social, 25/11, 15h37",
+          "url": "https://www.gov.br/previdencia/pt-br/noticias/2026/novembro/aposentadorias-representaram-a-maior-parte-dos-beneficios-do-inss-que-comprovaram-vida-durante-as-eleicoes-de-2026"
+        }
+      ]
+    },
+    {
+      "name": "Esportes",
+      "stories": [
+        {
+          "headline": "Corinthians empata com Atlético-MG e deixa a zona de rebaixamento.",
+          "summary": "Kaio César abriu o placar, mas Cuello empatou nos acréscimos para o Galo, que jogava com dez. O 1 a 1 na Arena MRV levou o Corinthians a 41 pontos.",
+          "source": "Gazeta Esportiva, 25/11, 22h07",
+          "url": "https://www.gazetaesportiva.com/times/corinthians/corinthians-sofre-empate-atletico-mg-deixa-z4-brasileirao/"
+        },
+        {
+          "headline": "Barcelona e Liverpool vencem; Lille bate o Bayern na Champions.",
+          "summary": "O Barça fez 4 a 1 no Sabah e o Liverpool venceu o Brugge por 3 a 0, com dois gols de Isak. O Lille derrotou o Bayern por 2 a 1, e o PSG perdeu os 100% de aproveitamento ao empatar por 2 a 2 com a Roma.",
+          "source": "UEFA, 25/11",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-22288f99d39c-d5631dd311d0-1000--champions-league-highlights-and-round-up-liverpool-and-bar/"
+        },
+        {
+          "headline": "FIA pune Williams por ultrapassar teto de gastos da Fórmula 1.",
+          "summary": "A equipe excedeu o limite de 2025 em 627 mil libras (0,48%). A sanção inclui multa e redução de 1,5% no tempo de testes aerodinâmicos pelos próximos 12 meses.",
+          "source": "Motorsport, 25/11, 16h59",
+          "url": "https://motorsport.uol.com.br/f1/news/f1-williams-quebra-teto-de-gastos-e-encara-punicao-para-2027/10877742/"
+        },
+        {
+          "headline": "Itália vence Coreia do Sul nas duplas e avança na Copa Davis.",
+          "summary": "Matteo Berrettini e Andrea Vavassori venceram em dois tie-breaks, fechando o confronto em 2 a 1. A atual tricampeã enfrenta a República Tcheca na semifinal.",
+          "source": "TenisBrasil, 25/11, 20h21",
+          "url": "https://tenisbrasil.uol.com.br/italianos-voltam-a-semifinal-da-davis-com-vitoria-dramatica-nas-duplas.html"
+        }
+      ]
+    }
+  ]
+}
