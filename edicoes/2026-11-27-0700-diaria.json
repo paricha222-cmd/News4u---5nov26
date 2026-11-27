@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-27-0700-diaria",
+  "title": "Edição diária",
+  "cutoff": "2026-11-27T07:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "sections": [
+    {
+      "name": "Economia",
+      "stories": [
+        {
+          "headline": "Trabuco aceita convite para comandar a Fazenda.",
+          "summary": "O Planalto confirmou que Luiz Carlos Trabuco Cappi aceitou assumir a pasta no próximo mandato de Lula. No pregão de quinta, antes da confirmação, o Ibovespa subiu 6,07%, aos 176.799,84 pontos, e o dólar comercial caiu 1,25%, a R$ 5,744.",
+          "source": "Agência Brasil, 26/11, 20h14",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/trabuco-aceita-convite-de-lula-para-comandar-fazenda-diz-planalto"
+        },
+        {
+          "headline": "Prévia da inflação desacelera para 0,22% em novembro.",
+          "summary": "O IPCA-15 ficou abaixo dos 0,32% de outubro, mas o acumulado em 12 meses passou de 4,62% a 4,64%. Alimentação e bebidas subiram 1,51%; transportes recuaram 0,71%.",
+          "source": "Agência Brasil, 26/11, 9h30",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ipca-15-teve-alta-de-022-em-novembro"
+        },
+        {
+          "headline": "Comissão aprova relatório preliminar do Orçamento de 2027.",
+          "summary": "O texto prevê remanejar R$ 2,09 bilhões de despesas não obrigatórias do Executivo para emendas parlamentares. Os valores ainda podem mudar durante a tramitação.",
+          "source": "Agência Brasil, 26/11, 17h09",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmo-aprova-relatorio-do-orcamento-de-2027-com-corte-de-r-209-bilhoes"
+        },
+        {
+          "headline": "Banco Central apresenta agenda de segurança do Pix para 2027.",
+          "summary": "Estão previstos um indicador de risco de fraude em tempo real e melhorias no Pix Automático, entre outras medidas. São propostas apresentadas no Fórum Pix, ainda não disponíveis aos usuários.",
+          "source": "Agência Brasil, 26/11, 18h36",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/pix-tera-novas-regras-de-seguranca-e-melhorias-em-2027"
+        }
+      ]
+    },
+    {
+      "name": "Previdência",
+      "stories": [
+        {
+          "headline": "Ministério detalha regras de transição da aposentadoria em 2027.",
+          "summary": "Na regra por pontos do RGPS, serão exigidos 94 pontos para mulheres e 104 para homens. Na idade mínima progressiva, serão 60 e 65 anos, respectivamente, com 30 e 35 anos de contribuição. São etapas da reforma de 2019, não uma nova reforma.",
+          "source": "Ministério da Previdência Social, 26/11, 16h18",
+          "url": "https://www.gov.br/previdencia/pt-br/noticias/2026/novembro/o-ministerio-da-previdencia-social-preparou-um-perguntas-e-respostas-sobre-as-regras-para-aposentadoria-em-2027/"
+        },
+        {
+          "headline": "Abrapp prepara teste de micropensões para trabalhadores de aplicativos.",
+          "summary": "A proposta é destinar parte da remuneração de motoristas e entregadores a um plano para testar adesão e permanência. A Abrapp descreveu uma prova de conceito em preparação, não um benefício já disponível.",
+          "source": "Abrapp, 26/11, 16h36",
+          "url": "https://blog.abrapp.org.br/blog/abrapp-revisa-planejamento-estrategico-e-concentra-esforcos-na-conclusao-das-entregas/"
+        },
+        {
+          "headline": "Abrapp marca webinar sobre aplicação prática de critérios ASG.",
+          "summary": "O encontro gratuito de 2/12, às 14h, apresentará uma matriz para fundos de pensão diagnosticarem seu estágio em aspectos ambientais, sociais e de governança e priorizarem ações.",
+          "source": "Abrapp, 26/11, 19h15",
+          "url": "https://blog.abrapp.org.br/blog/webinar-da-abrapp-discutira-como-transformar-aspectos-asg-em-acoes-concretas/"
+        },
+        {
+          "headline": "INSS orienta como responder a avisos sobre documentos pendentes.",
+          "summary": "A orientação é conferir a pendência e enviar os documentos pela opção Cumprir Exigência do Meu INSS, não pelo WhatsApp. O governo informou o envio de 2,2 milhões de mensagens.",
+          "source": "INSS, 26/11, 12h43",
+          "url": "https://www.gov.br/inss/pt-br/noticias/governo-orienta-cidadaos-sobre-entrega-de-documentos-ao-inss/"
+        }
+      ]
+    },
+    {
+      "name": "Esportes",
+      "stories": [
+        {
+          "headline": "São Paulo vence o Remo e encerra jejum de cinco jogos.",
+          "summary": "Calleri marcou duas vezes e Ryan Francisco completou o 3 a 1 na despedida do Morumbis em 2026. O São Paulo chegou a 48 pontos no Brasileirão.",
+          "source": "Gazeta Esportiva, 26/11, 22h02",
+          "url": "https://www.gazetaesportiva.com/times/sao-paulo/sao-paulo-x-remo-brasileirao-37-rodada-26-11-2026/"
+        },
+        {
+          "headline": "Palmeiras faz primeiro treino em Montevidéu antes da final da Libertadores.",
+          "summary": "Murilo e Piquerez participaram de parte da atividade após lesões musculares. O Palmeiras enfrenta o Estudiantes no sábado, às 17h de Brasília, no Estádio Centenário.",
+          "source": "Palmeiras, 26/11, 19h40",
+          "url": "https://palmeiras.com.br/noticias/palmeiras-faz-treino-tatico-e-segue-preparacao-para-final-com-o-estudiantes/"
+        },
+        {
+          "headline": "GP do Catar abre com dois treinos nesta sexta-feira.",
+          "summary": "A penúltima etapa da Fórmula 1 começa em Lusail com sessões livres às 10h30 e às 14h, no horário de Brasília.",
+          "source": "ge, 27/11, 0h01",
+          "url": "https://ge.globo.com/motor/formula-1/noticia/2026/11/27/treino-1-do-gp-do-catar-da-f1-2026-horarios-e-onde-assistir.ghtml"
+        },
+        {
+          "headline": "Espanha avança sem Alcaraz e encara Grã-Bretanha na Copa Davis.",
+          "summary": "A Espanha bateu a Áustria por 2 a 0 em Bolonha. A Grã-Bretanha eliminou a Alemanha de Alexander Zverev por 2 a 1.",
+          "source": "AFP/UOL, 26/11, 19h07",
+          "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/11/26/espanha-elimina-austria-sem-alcaraz-e-avanca-para-as-semifinais-da-copa-davis.htm"
+        }
+      ]
+    }
+  ]
+}
