@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-28-0700-diaria",
+  "title": "Edição diária",
+  "cutoff": "2026-11-28T07:00:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "sections": [
+    {
+      "name": "Economia",
+      "stories": [
+        {
+          "headline": "Renda real do trabalhador cresce 3,5% em um ano",
+          "summary": "No trimestre encerrado em outubro, o rendimento habitual foi de R$ 3.812, alta real de 1% em relação ao trimestre terminado em julho. A taxa de desocupação ficou em 5,1%, com 103,7 milhões de pessoas ocupadas.",
+          "source": "Agência Brasil, 27/11, 9h51",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/rendimento-real-do-trabalhador-cresceu-35-em-um-ano"
+        },
+        {
+          "headline": "Governo Central registra superávit primário de R$ 52,3 bilhões em outubro",
+          "summary": "A receita líquida cresceu 5,6% e as despesas recuaram 0,2%, em termos reais, na comparação anual. De janeiro a outubro, o resultado ainda foi deficitário em R$ 37,9 bilhões.",
+          "source": "Agência Brasil, 27/11, 12h57",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/contas-do-governo-tem-superavit-de-r-523-bilhoes-em-outubro"
+        },
+        {
+          "headline": "Tesouro Direto tem vendas recordes para outubro",
+          "summary": "As vendas somaram R$ 10,57 bilhões, alta de 47,15% em relação a outubro de 2025. As aplicações no Tesouro Reserva chegaram a R$ 1,26 bilhão, e as vendas totais superaram os resgates em R$ 2,87 bilhões.",
+          "source": "Agência Brasil, 27/11, 18h01",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/vendas-do-tesouro-direto-registram-melhor-outubro-da-historia"
+        },
+        {
+          "headline": "Dezembro terá bandeira verde na conta de luz",
+          "summary": "Dezembro será o terceiro mês seguido sem adicional de bandeira tarifária. A Aneel atribuiu a decisão à recuperação dos reservatórios e à menor necessidade de acionar usinas termelétricas.",
+          "source": "Aneel, 27/11, 19h25",
+          "url": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2026/dezembro-tera-bandeira-tarifaria-verde"
+        }
+      ]
+    },
+    {
+      "name": "Previdência",
+      "stories": [
+        {
+          "headline": "Edital de Cuité dá pontos a educação previdenciária e simulador",
+          "summary": "Cuité (PB) seleciona uma entidade fechada autorizada pela Previc para gerir a previdência complementar de servidores efetivos. Um programa anual de educação e um simulador on-line de benefícios valem dois pontos cada, se comprovados. O edital prevê esclarecimentos até 30/11 às 17h e propostas até 3/12 às 17h, no horário de Brasília.",
+          "source": "Prefeitura de Cuité, 27/11",
+          "url": "https://cuite.pb.gov.br/wp-content/uploads/2026/11/Edital-Processo-Seletivo-no-001-de-2026-EFPC.pdf"
+        },
+        {
+          "headline": "Campinas remarca para domingo a votação da reforma previdenciária",
+          "summary": "A Câmara cancelou a sessão de sexta após o bloqueio dos acessos ao Legislativo por servidores. Segundo o Sampi, a Câmara convocou sessões remotas para domingo (29), a partir das 9h, com a reforma da previdência municipal na pauta. Os projetos ainda não foram votados.",
+          "source": "Sampi, 27/11, 21h35",
+          "url": "https://sampi.net.br/campinas/noticias/3021730/campinas/2026/11/camara-vai-votar-reforma-do-camprev-no-domingo-em-sessao-virtual"
+        },
+        {
+          "headline": "Previc apresenta critérios de transparência e governança dos fundos de pensão",
+          "summary": "O índice prevê avaliação anual por segmento de supervisão, com até 45% da nota em governança, 40% em transparência e 15% em resultados. O relato da apresentação não traz notas por entidade nem data do próximo ciclo.",
+          "source": "Abrapp, 27/11, 18h",
+          "url": "https://blog.abrapp.org.br/blog/conexoes-previc-apresenta-detalhes-do-novo-indice-de-transparencia-e-gestao/"
+        },
+        {
+          "headline": "INSS anuncia mais de 18 mil vagas de atendimento para o fim de semana",
+          "summary": "O mutirão de 28 e 29 de novembro oferece 13.184 vagas para perícia médica e 4.898 para avaliação social. O agendamento pode ser feito pelo Meu INSS ou pelo telefone 135, conforme a disponibilidade.",
+          "source": "INSS, 27/11, 9h47",
+          "url": "https://www.gov.br/inss/pt-br/noticias/mutirao-de-atendimentos-do-inss-oferece-mais-de-18-mil-vagas-neste-fim-de-semana-28-e-29-de-novembro"
+        }
+      ]
+    },
+    {
+      "name": "Esportes",
+      "stories": [
+        {
+          "headline": "Palmeiras mira o tetra da Libertadores com Murilo e Piquerez na provável escalação",
+          "summary": "Os dois se recuperaram e devem ficar à disposição de Abel Ferreira. A final contra o Estudiantes começa às 17h de Brasília, no Estádio Centenário, em Montevidéu.",
+          "source": "ge, 28/11, 4h",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/28/palmeiras-x-estudiantes-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml"
+        },
+        {
+          "headline": "Vila Nova volta à Série A após 41 anos",
+          "summary": "O time venceu o Atlético-GO por 2 a 0 em Goiânia na volta do playoff e garantiu o acesso à primeira divisão em 2027.",
+          "source": "Gazeta Esportiva, 27/11, 21h57",
+          "url": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-b/vila-nova-vence-atletico-go-e-conquista-acesso-a-serie-a-apos-41-anos/"
+        },
+        {
+          "headline": "Antonelli lidera treinos no Catar; Bortoleto é 11º no segundo treino",
+          "summary": "A Mercedes ficou com as duas primeiras posições na segunda sessão, com George Russell atrás de Andrea Kimi Antonelli. Rafael Câmara foi o 17º. A classificação começa às 15h de Brasília neste sábado.",
+          "source": "ge, 27/11, 15h16",
+          "url": "https://ge.globo.com/motor/formula-1/noticia/2026/11/27/gp-do-catar-antonelli-lidera-2o-treino-bortoleto-e-11o-e-camara-fica-em-17o.ghtml"
+        },
+        {
+          "headline": "Itália vai à quarta final seguida da Copa Davis",
+          "summary": "Lorenzo Musetti e Andrea Vavassori decidiram nas duplas a vitória por 2 a 1 sobre a República Tcheca, em Bolonha. Espanha e Grã-Bretanha disputam a outra vaga às 8h de Brasília neste sábado.",
+          "source": "Tênis Brasil, 27/11, 19h11",
+          "url": "https://tenisbrasil.uol.com.br/italia-volta-a-vencer-nas-duplas-e-disputa-a-quarta-final-seguida-na-davis.html"
+        }
+      ]
+    }
+  ]
+}
